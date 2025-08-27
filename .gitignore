@@ -1,20 +1,16 @@
-# Python / Django
+# Python
 *.pyc
 __pycache__/
+
+# Django
 db.sqlite3
 *.log
 
-# Virtual environments (uncomment if you want Git to ignore it)
+# Virtual environment
 projectVenv/
 env/
 venv/
 .venv/
-
-# Flutter / Dart
-build/
-.flutter-plugins
-.flutter-plugins-dependencies
-.packages
 
 # IDEs
 .vscode/
