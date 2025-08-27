@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Add Doctor</title>
+</head>
+<body>
+    <h1>Add Doctor</h1>
+    <form method="post"> // Add CSRF token for security
+        {% csrf_token %} // Render the form fields
+        {{ form.as_p }}    
+        <button type="submit">Save</button>
+    </form>
+</body>
+</html>
