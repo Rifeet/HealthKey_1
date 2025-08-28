@@ -30,6 +30,6 @@ urlpatterns = [
     #path('core/', include('core.urls')),
     path('create_user/', include('create_user.urls')),
     path("__debug__/", include(debug_toolbar.urls)),  # Django Debug Toolbar
-    path('auth/login/', include('authentication.urls')),
+    path('auth/', include('authentication.urls')),
 ]
                                    
