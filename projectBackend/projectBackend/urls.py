@@ -29,6 +29,7 @@ urlpatterns = [
     path('api/', include('api.urls')),
     #path('core/', include('core.urls')),
     path('create_user/', include('create_user.urls')),
+    path("ai/", include("ai_engine.urls")),
     path("__debug__/", include(debug_toolbar.urls)),  # Django Debug Toolbar
     path('auth/login/', include('authentication.urls')),
 ]

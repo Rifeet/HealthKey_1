@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Patient Risk Prediction</title>
+    <script>
+        function fillSampleData() {
+            document.querySelector('input[name="patient_id"]').value = "1";  // Existing patient_id in KG
+            document.querySelector('input[name="age"]').value = "69";
+            document.querySelector('select[name="gender"]').value = "Female";
+            document.querySelector('input[name="BMI"]').value = "24.6";
+            document.querySelector('input[name="smoking"]').value = "Yes";
+            document.querySelector('input[name="physical_activity"]').value = "Low";
+            document.querySelector('input[name="glucose"]').value = "99.9";
+            document.querySelector('input[name="HbA1c"]').value = "5";
+            document.querySelector('input[name="cholesterol"]').value = "168.5";
+            document.querySelector('input[name="blood_pressure_systolic"]').value = "118";
+            document.querySelector('input[name="blood_pressure_diastolic"]').value = "76";
+            document.querySelector('input[name="creatinine"]').value = "0.94";
+            document.querySelector('input[name="microalbuminuria"]').value = "Normal";
+            document.querySelector('input[name="c_peptide"]').value = "2.95";
+            document.querySelector('input[name="diabetes_in_family"]').value = "No";
+            document.querySelector('input[name="previous_diagnoses"]').value = "None";
+            document.querySelector('input[name="drug_history"]').value = "None";
+        }
+    </script>
+</head>
+<body>
+    <h1>Enter Patient Data</h1>
+    <form method="post">
+        {% csrf_token %}
+        <label>Patient ID:</label>
+        <input type="text" name="patient_id" value="{{ request.POST.patient_id }}"><br>
+
+        <label>Age:</label>
+        <input type="number" name="age" value="{{ request.POST.age }}"><br>
+
+        <label>Gender:</label>
+        <select name="gender">
+            <option value="male" {% if request.POST.gender == "male" %}selected{% endif %}>Male</option>
+            <option value="female" {% if request.POST.gender == "female" %}selected{% endif %}>Female</option>
+        </select><br>
+
+        <label>BMI:</label>
+        <input type="number" step="any" name="BMI" value="{{ request.POST.BMI }}"><br>
+
+        <label>Smoking:</label>
+        <input type="text" name="smoking" value="{{ request.POST.smoking }}"><br>
+
+        <label>Physical Activity:</label>
+        <input type="text" name="physical_activity" value="{{ request.POST.physical_activity }}"><br>
+
+        <label>Glucose:</label>
+        <input type="number" step="any" name="glucose" value="{{ request.POST.glucose }}"><br>
+
+        <label>HbA1c:</label>
+        <input type="number" step="any" name="HbA1c" value="{{ request.POST.HbA1c }}"><br>
+
+        <label>Cholesterol:</label>
+        <input type="number" step="any" name="cholesterol" value="{{ request.POST.cholesterol }}"><br>
+
+        <label>Blood Pressure Systolic:</label>
+        <input type="number" step="any" name="blood_pressure_systolic" value="{{ request.POST.blood_pressure_systolic }}"><br>
+
+        <label>Blood Pressure Diastolic:</label>
+        <input type="number" step="any" name="blood_pressure_diastolic" value="{{ request.POST.blood_pressure_diastolic }}"><br>
+
+        <label>Creatinine:</label>
+        <input type="number" step="any" name="creatinine" value="{{ request.POST.creatinine }}"><br>
+
+        <label>Microalbuminuria:</label>
+        <input type="text" name="microalbuminuria" value="{{ request.POST.microalbuminuria }}"><br>
+
+        <label>C-Peptide:</label>
+        <input type="number" step="any" name="c_peptide" value="{{ request.POST.c_peptide }}"><br>
+
+        <label>Diabetes in Family:</label>
+        <input type="text" name="diabetes_in_family" value="{{ request.POST.diabetes_in_family }}"><br>
+
+        <label>Previous Diagnoses:</label>
+        <input type="text" name="previous_diagnoses" value="{{ request.POST.previous_diagnoses }}"><br>
+
+        <label>Drug History:</label>
+        <input type="text" name="drug_history" value="{{ request.POST.drug_history }}"><br><br>
+
+        <button type="submit">Predict</button>
+        <button type="button" onclick="fillSampleData()">Fill Sample Data</button>
+    </form>
+
+    {% if result %}
+        <h2>Prediction Result</h2>
+        {% if result.error %}
+            <p style="color:red;">{{ result.error }}</p>
+        {% else %}
+            <p>Prediction: {{ result.prediction }}</p>
+            <p>Probability: {{ result.probability }}</p>
+            <p>Risk Level: {{ result.risk_level }}</p>
+            <p>Recommendation: {{ result.recommendation }}</p>
+        {% endif %}
+    {% endif %}
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AI Patient Prediction</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; }
+        form { margin-bottom: 20px; max-width: 600px; }
+        form p { margin: 8px 0; }
+        button { padding: 10px 20px; background: #007bff; color: white; border: none; cursor: pointer; }
+        button:hover { background: #0056b3; }
+        .result { background: #f9f9f9; padding: 15px; border-radius: 5px; margin-top: 20px; }
+    </style>
+</head>
+<body>
+    <h1>AI Diabetes Risk Prediction</h1>
+
+    <form method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">Predict</button>
+    </form>
+
+    {% if result %}
+        <div class="result">
+            <h2>Prediction Result</h2>
+            <p><strong>Prediction:</strong> {{ result.prediction }}</p>
+            <p><strong>Probability:</strong> {{ result.probability|floatformat:3 }}</p>
+            <p><strong>Risk Level:</strong> {{ result.risk_level }}</p>
+            <p><strong>Recommendation:</strong> {{ result.recommendation }}</p>
+        </div>
+    {% endif %}
+</body>
+</html>

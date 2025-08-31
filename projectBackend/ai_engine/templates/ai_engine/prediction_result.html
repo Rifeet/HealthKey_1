@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Patient Prediction</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 30px; }
+        .risk-high { color: red; font-weight: bold; }
+        .risk-moderate { color: orange; font-weight: bold; }
+        .risk-low { color: green; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <h1>Patient Prediction Result</h1>
+
+    {% if prediction.error %}
+        <p>{{ prediction.error }}</p>
+    {% else %}
+        <ul>
+            <li>Prediction: {{ prediction.prediction }}</li>
+            <li>Probability: {{ prediction.probability|floatformat:2 }}</li>
+            <li>Risk Level: 
+                <span class="
+                    {% if prediction.risk_level == 'Very High' or prediction.risk_level == 'High' %}
+                        risk-high
+                    {% elif prediction.risk_level == 'Moderate' %}
+                        risk-moderate
+                    {% else %}
+                        risk-low
+                    {% endif %}
+                ">
+                    {{ prediction.risk_level }}
+                </span>
+            </li>
+            <li>Recommendation: {{ prediction.recommendation }}</li>
+        </ul>
+    {% endif %}
+</body>
+</html>

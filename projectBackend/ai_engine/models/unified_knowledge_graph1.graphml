@@ -1,0 +1,4888 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d1" for="edge" attr.name="relationship" attr.type="string"/>
+<key id="d0" for="node" attr.name="type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="Patient_001">
+  <data key="d0">patient</data>
+</node>
+<node id="Obesity">
+  <data key="d0">entity</data>
+</node>
+<node id="Sedentary Lifestyle">
+  <data key="d0">entity</data>
+</node>
+<node id="Patient_002">
+  <data key="d0">patient</data>
+</node>
+<node id="CPAP Machine">
+  <data key="d0">entity</data>
+</node>
+<node id="Cardiovascular Disease">
+  <data key="d0">entity</data>
+</node>
+<node id="Type 2 Diabetes">
+  <data key="d0">entity</data>
+</node>
+<node id="Patient_003">
+  <data key="d0">patient</data>
+</node>
+<node id="Elevated HbA1c">
+  <data key="d0">entity</data>
+</node>
+<node id="Patient_004">
+  <data key="d0">patient</data>
+</node>
+<node id="Foot Numbness">
+  <data key="d0">entity</data>
+</node>
+<node id="Gestational Diabetes">
+  <data key="d0">entity</data>
+</node>
+<node id="Statin">
+  <data key="d0">entity</data>
+</node>
+<node id="Patient_005">
+  <data key="d0">patient</data>
+</node>
+<node id="Physical Activity">
+  <data key="d0">entity</data>
+</node>
+<node id="Type 1 Diabetes">
+  <data key="d0">entity</data>
+</node>
+<node id="Patient_006">
+  <data key="d0">patient</data>
+</node>
+<node id="Diet High in Processed Foods">
+  <data key="d0">entity</data>
+</node>
+<node id="Antihypertensives">
+  <data key="d0">entity</data>
+</node>
+<node id="Patient_007">
+  <data key="d0">patient</data>
+</node>
+<node id="Hypertension">
+  <data key="d0">entity</data>
+</node>
+<node id="Patient_008">
+  <data key="d0">patient</data>
+</node>
+<node id="Elevated Creatinine">
+  <data key="d0">entity</data>
+</node>
+<node id="PCOS">
+  <data key="d0">entity</data>
+</node>
+<node id="Headaches">
+  <data key="d0">entity</data>
+</node>
+<node id="Patient_009">
+  <data key="d0">patient</data>
+</node>
+<node id="Chronic Kidney Disease">
+  <data key="d0">entity</data>
+</node>
+<node id="Unexplained Weight Loss">
+  <data key="d0">entity</data>
+</node>
+<node id="Heavy Alcohol Use">
+  <data key="d0">entity</data>
+</node>
+<node id="Patient_010">
+  <data key="d0">patient</data>
+</node>
+<node id="Positive Autoantibodies">
+  <data key="d0">entity</data>
+</node>
+<node id="Stress">
+  <data key="d0">entity</data>
+</node>
+<node id="NAFLD">
+  <data key="d0">entity</data>
+</node>
+<node id="Patient_011">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_012">
+  <data key="d0">patient</data>
+</node>
+<node id="Laser Photocoagulation">
+  <data key="d0">entity</data>
+</node>
+<node id="Patient_013">
+  <data key="d0">patient</data>
+</node>
+<node id="Insulin">
+  <data key="d0">entity</data>
+</node>
+<node id="Patient_014">
+  <data key="d0">patient</data>
+</node>
+<node id="Vomiting">
+  <data key="d0">entity</data>
+</node>
+<node id="Patient_015">
+  <data key="d0">patient</data>
+</node>
+<node id="Frequent Urination">
+  <data key="d0">entity</data>
+</node>
+<node id="Diabetic Retinopathy">
+  <data key="d0">entity</data>
+</node>
+<node id="Patient_016">
+  <data key="d0">patient</data>
+</node>
+<node id="Insomnia">
+  <data key="d0">entity</data>
+</node>
+<node id="Smoking">
+  <data key="d0">entity</data>
+</node>
+<node id="ACE Inhibitor">
+  <data key="d0">entity</data>
+</node>
+<node id="Patient_017">
+  <data key="d0">patient</data>
+</node>
+<node id="Elevated Liver Enzymes">
+  <data key="d0">entity</data>
+</node>
+<node id="Patient_018">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_019">
+  <data key="d0">patient</data>
+</node>
+<node id="Metformin">
+  <data key="d0">entity</data>
+</node>
+<node id="Blurred Vision">
+  <data key="d0">entity</data>
+</node>
+<node id="Patient_020">
+  <data key="d0">patient</data>
+</node>
+<node id="Nausea">
+  <data key="d0">entity</data>
+</node>
+<node id="Patient_021">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_022">
+  <data key="d0">patient</data>
+</node>
+<node id="Insulin Resistance">
+  <data key="d0">entity</data>
+</node>
+<node id="Fatigue">
+  <data key="d0">entity</data>
+</node>
+<node id="Poor Diet">
+  <data key="d0">entity</data>
+</node>
+<node id="Patient_023">
+  <data key="d0">patient</data>
+</node>
+<node id="High Cholesterol">
+  <data key="d0">entity</data>
+</node>
+<node id="Patient_024">
+  <data key="d0">patient</data>
+</node>
+<node id="Normal HbA1c">
+  <data key="d0">entity</data>
+</node>
+<node id="Patient_025">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_026">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_027">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_028">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_029">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_030">
+  <data key="d0">patient</data>
+</node>
+<node id="Chest Pain">
+  <data key="d0">entity</data>
+</node>
+<node id="Patient_031">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_032">
+  <data key="d0">patient</data>
+</node>
+<node id="Peripheral Neuropathy">
+  <data key="d0">entity</data>
+</node>
+<node id="Patient_033">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_034">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_035">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_036">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_037">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_038">
+  <data key="d0">patient</data>
+</node>
+<node id="Increased Thirst">
+  <data key="d0">entity</data>
+</node>
+<node id="Patient_039">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_040">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_041">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_042">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_043">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_044">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_045">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_046">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_047">
+  <data key="d0">patient</data>
+</node>
+<node id="Microalbuminuria">
+  <data key="d0">entity</data>
+</node>
+<node id="Patient_048">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_049">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_050">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_051">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_052">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_053">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_054">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_055">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_056">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_057">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_058">
+  <data key="d0">patient</data>
+</node>
+<node id="Metabolic Syndrome">
+  <data key="d0">entity</data>
+</node>
+<node id="Patient_059">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_060">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_061">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_062">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_063">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_064">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_065">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_066">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_067">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_068">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_069">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_070">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_071">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_072">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_073">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_074">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_075">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_076">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_077">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_078">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_079">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_080">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_081">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_082">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_083">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_084">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_085">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_086">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_087">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_088">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_089">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_090">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_091">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_092">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_093">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_094">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_095">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_096">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_097">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_098">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_099">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_100">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_101">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_102">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_103">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_104">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_105">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_106">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_107">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_108">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_109">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_110">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_111">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_112">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_113">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_114">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_115">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_116">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_117">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_118">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_119">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_120">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_121">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_122">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_123">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_124">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_125">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_126">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_127">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_128">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_129">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_130">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_131">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_132">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_133">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_134">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_135">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_136">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_137">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_138">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_139">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_140">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_141">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_142">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_143">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_144">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_145">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_146">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_147">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_148">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_149">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_150">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_151">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_152">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_153">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_154">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_155">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_156">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_157">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_158">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_159">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_160">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_161">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_162">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_163">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_164">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_165">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_166">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_167">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_168">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_169">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_170">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_171">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_172">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_173">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_174">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_175">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_176">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_177">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_178">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_179">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_180">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_181">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_182">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_183">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_184">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_185">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_186">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_187">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_188">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_189">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_190">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_191">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_192">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_193">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_194">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_195">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_196">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_197">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_198">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_199">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_200">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_201">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_202">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_203">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_204">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_205">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_206">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_207">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_208">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_209">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_210">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_211">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_212">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_213">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_214">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_215">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_216">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_217">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_218">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_219">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_220">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_221">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_222">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_223">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_224">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_225">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_226">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_227">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_228">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_229">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_230">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_231">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_232">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_233">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_234">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_235">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_236">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_237">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_238">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_239">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_240">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_241">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_242">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_243">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_244">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_245">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_246">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_247">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_248">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_249">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_250">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_251">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_252">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_253">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_254">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_255">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_256">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_257">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_258">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_259">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_260">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_261">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_262">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_263">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_264">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_265">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_266">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_267">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_268">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_269">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_270">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_271">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_272">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_273">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_274">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_275">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_276">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_277">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_278">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_279">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_280">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_281">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_282">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_283">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_284">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_285">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_286">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_287">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_288">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_289">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_290">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_291">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_292">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_293">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_294">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_295">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_296">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_297">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_298">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_299">
+  <data key="d0">patient</data>
+</node>
+<node id="Patient_300">
+  <data key="d0">patient</data>
+</node>
+<node id="Autoimmunity">
+  <data key="d0">entity</data>
+</node>
+<node id="Atherosclerosis">
+  <data key="d0">entity</data>
+</node>
+<node id="Diabetes">
+  <data key="d0">entity</data>
+</node>
+<node id="Hyperglycemia">
+  <data key="d0">entity</data>
+</node>
+<node id="Blood Vessels">
+  <data key="d0">entity</data>
+</node>
+<node id="Myocardial Infarction">
+  <data key="d0">entity</data>
+</node>
+<node id="Stroke">
+  <data key="d0">entity</data>
+</node>
+<node id="Diabetic Nephropathy">
+  <data key="d0">entity</data>
+</node>
+<node id="Diabetic Foot Ulcers">
+  <data key="d0">entity</data>
+</node>
+<node id="Autonomic Neuropathy">
+  <data key="d0">entity</data>
+</node>
+<node id="Gastroparesis">
+  <data key="d0">entity</data>
+</node>
+<node id="Cognitive Decline">
+  <data key="d0">entity</data>
+</node>
+<node id="Vision Loss">
+  <data key="d0">entity</data>
+</node>
+<node id="Macular Edema">
+  <data key="d0">entity</data>
+</node>
+<node id="Annual Eye Exam">
+  <data key="d0">entity</data>
+</node>
+<node id="Cushing's Syndrome">
+  <data key="d0">entity</data>
+</node>
+<node id="Secondary Diabetes">
+  <data key="d0">entity</data>
+</node>
+<node id="Hemochromatosis">
+  <data key="d0">entity</data>
+</node>
+<node id="Diabetes Mellitus">
+  <data key="d0">entity</data>
+</node>
+<node id="Non-Alcoholic Fatty Liver Disease (NAFLD)">
+  <data key="d0">entity</data>
+</node>
+<node id="Insulin Sensitivity">
+  <data key="d0">entity</data>
+</node>
+<node id="Visceral Fat">
+  <data key="d0">entity</data>
+</node>
+<node id="Fasting Blood Glucose">
+  <data key="d0">entity</data>
+</node>
+<node id="HbA1c">
+  <data key="d0">entity</data>
+</node>
+<node id="Past 3 Months">
+  <data key="d0">entity</data>
+</node>
+<node id="Oral Glucose Tolerance Test">
+  <data key="d0">entity</data>
+</node>
+<node id="C-Peptide">
+  <data key="d0">entity</data>
+</node>
+<node id="Insulin Production">
+  <data key="d0">entity</data>
+</node>
+<edge source="Patient_001" target="Obesity">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="Patient_001" target="Sedentary Lifestyle">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Obesity" target="Patient_003">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="Obesity" target="Patient_028">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="Obesity" target="Patient_040">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="Obesity" target="Patient_050">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="Obesity" target="Patient_065">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="Obesity" target="Patient_067">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="Obesity" target="Patient_079">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="Obesity" target="Patient_088">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="Obesity" target="Patient_090">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="Obesity" target="Patient_116">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="Obesity" target="Patient_122">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="Obesity" target="Patient_134">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="Obesity" target="Patient_140">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="Obesity" target="Patient_151">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="Obesity" target="Patient_179">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="Obesity" target="Patient_203">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="Obesity" target="Patient_233">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="Obesity" target="Patient_239">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="Obesity" target="Patient_263">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="Obesity" target="Patient_272">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="Obesity" target="Patient_285">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="Obesity" target="Patient_289">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="Obesity" target="Type 2 Diabetes">
+  <data key="d1">is_major_risk_factor_for</data>
+</edge>
+<edge source="Obesity" target="Sedentary Lifestyle">
+  <data key="d1">contributes_to</data>
+</edge>
+<edge source="Sedentary Lifestyle" target="Patient_004">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Sedentary Lifestyle" target="Patient_029">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Sedentary Lifestyle" target="Patient_042">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Sedentary Lifestyle" target="Patient_049">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Sedentary Lifestyle" target="Patient_054">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Sedentary Lifestyle" target="Patient_058">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Sedentary Lifestyle" target="Patient_087">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Sedentary Lifestyle" target="Patient_093">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Sedentary Lifestyle" target="Patient_095">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Sedentary Lifestyle" target="Patient_106">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Sedentary Lifestyle" target="Patient_119">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Sedentary Lifestyle" target="Patient_125">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Sedentary Lifestyle" target="Patient_130">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Sedentary Lifestyle" target="Patient_139">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Sedentary Lifestyle" target="Patient_160">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Sedentary Lifestyle" target="Patient_171">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Sedentary Lifestyle" target="Patient_177">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Sedentary Lifestyle" target="Patient_190">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Sedentary Lifestyle" target="Patient_192">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Sedentary Lifestyle" target="Patient_200">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Sedentary Lifestyle" target="Patient_208">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Sedentary Lifestyle" target="Patient_209">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Sedentary Lifestyle" target="Patient_229">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Sedentary Lifestyle" target="Patient_238">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Sedentary Lifestyle" target="Patient_251">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Sedentary Lifestyle" target="Patient_266">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Sedentary Lifestyle" target="Patient_270">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Sedentary Lifestyle" target="Patient_283">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Patient_002" target="CPAP Machine">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="Patient_002" target="Cardiovascular Disease">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="Patient_002" target="Type 2 Diabetes">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="CPAP Machine" target="Patient_017">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="CPAP Machine" target="Patient_025">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="CPAP Machine" target="Patient_068">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="CPAP Machine" target="Patient_072">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="CPAP Machine" target="Patient_074">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="CPAP Machine" target="Patient_080">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="CPAP Machine" target="Patient_091">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="CPAP Machine" target="Patient_101">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="CPAP Machine" target="Patient_103">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="CPAP Machine" target="Patient_108">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="CPAP Machine" target="Patient_121">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="CPAP Machine" target="Patient_151">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="CPAP Machine" target="Patient_153">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="CPAP Machine" target="Patient_180">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="CPAP Machine" target="Patient_198">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="CPAP Machine" target="Patient_202">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="CPAP Machine" target="Patient_204">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="CPAP Machine" target="Patient_224">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="CPAP Machine" target="Patient_246">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="CPAP Machine" target="Patient_249">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="CPAP Machine" target="Patient_259">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="CPAP Machine" target="Patient_279">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="CPAP Machine" target="Patient_284">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="CPAP Machine" target="Patient_294">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="Cardiovascular Disease" target="Patient_005">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Cardiovascular Disease" target="Patient_006">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Cardiovascular Disease" target="Patient_025">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Cardiovascular Disease" target="Patient_030">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="Cardiovascular Disease" target="Patient_031">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="Cardiovascular Disease" target="Patient_034">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Cardiovascular Disease" target="Patient_036">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Cardiovascular Disease" target="Patient_040">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Cardiovascular Disease" target="Patient_041">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Cardiovascular Disease" target="Patient_051">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Cardiovascular Disease" target="Patient_058">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Cardiovascular Disease" target="Patient_063">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="Cardiovascular Disease" target="Patient_068">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Cardiovascular Disease" target="Patient_070">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Cardiovascular Disease" target="Patient_077">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Cardiovascular Disease" target="Patient_084">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Cardiovascular Disease" target="Patient_092">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Cardiovascular Disease" target="Patient_095">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Cardiovascular Disease" target="Patient_098">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Cardiovascular Disease" target="Patient_101">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Cardiovascular Disease" target="Patient_106">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Cardiovascular Disease" target="Patient_107">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Cardiovascular Disease" target="Patient_109">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Cardiovascular Disease" target="Patient_115">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Cardiovascular Disease" target="Patient_117">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Cardiovascular Disease" target="Patient_119">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Cardiovascular Disease" target="Patient_120">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Cardiovascular Disease" target="Patient_122">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Cardiovascular Disease" target="Patient_123">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Cardiovascular Disease" target="Patient_132">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Cardiovascular Disease" target="Patient_141">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Cardiovascular Disease" target="Patient_145">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Cardiovascular Disease" target="Patient_146">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Cardiovascular Disease" target="Patient_152">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="Cardiovascular Disease" target="Patient_154">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Cardiovascular Disease" target="Patient_157">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="Cardiovascular Disease" target="Patient_158">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Cardiovascular Disease" target="Patient_159">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="Cardiovascular Disease" target="Patient_171">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Cardiovascular Disease" target="Patient_173">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="Cardiovascular Disease" target="Patient_174">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Cardiovascular Disease" target="Patient_175">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Cardiovascular Disease" target="Patient_178">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Cardiovascular Disease" target="Patient_186">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Cardiovascular Disease" target="Patient_187">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Cardiovascular Disease" target="Patient_198">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Cardiovascular Disease" target="Patient_204">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Cardiovascular Disease" target="Patient_206">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Cardiovascular Disease" target="Patient_211">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Cardiovascular Disease" target="Patient_220">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Cardiovascular Disease" target="Patient_227">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Cardiovascular Disease" target="Patient_228">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Cardiovascular Disease" target="Patient_233">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Cardiovascular Disease" target="Patient_237">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="Cardiovascular Disease" target="Patient_243">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Cardiovascular Disease" target="Patient_246">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Cardiovascular Disease" target="Patient_249">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Cardiovascular Disease" target="Patient_251">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="Cardiovascular Disease" target="Patient_262">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Cardiovascular Disease" target="Patient_270">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Cardiovascular Disease" target="Patient_272">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Cardiovascular Disease" target="Patient_283">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Cardiovascular Disease" target="Patient_284">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Cardiovascular Disease" target="Patient_285">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Cardiovascular Disease" target="Patient_290">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="Cardiovascular Disease" target="Patient_298">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Cardiovascular Disease" target="Type 2 Diabetes">
+  <data key="d1">significantly_increases_risk_of</data>
+</edge>
+<edge source="Type 2 Diabetes" target="Patient_004">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Type 2 Diabetes" target="Patient_013">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="Type 2 Diabetes" target="Patient_016">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="Type 2 Diabetes" target="Patient_024">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Type 2 Diabetes" target="Patient_026">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="Type 2 Diabetes" target="Patient_032">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Type 2 Diabetes" target="Patient_038">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="Type 2 Diabetes" target="Patient_042">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Type 2 Diabetes" target="Patient_047">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="Type 2 Diabetes" target="Patient_048">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Type 2 Diabetes" target="Patient_057">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Type 2 Diabetes" target="Patient_063">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Type 2 Diabetes" target="Patient_065">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Type 2 Diabetes" target="Patient_067">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Type 2 Diabetes" target="Patient_069">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Type 2 Diabetes" target="Patient_074">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Type 2 Diabetes" target="Patient_079">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Type 2 Diabetes" target="Patient_081">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Type 2 Diabetes" target="Patient_083">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Type 2 Diabetes" target="Patient_087">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Type 2 Diabetes" target="Patient_088">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Type 2 Diabetes" target="Patient_106">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="Type 2 Diabetes" target="Patient_108">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Type 2 Diabetes" target="Patient_110">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Type 2 Diabetes" target="Patient_124">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Type 2 Diabetes" target="Patient_126">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Type 2 Diabetes" target="Patient_128">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Type 2 Diabetes" target="Patient_130">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Type 2 Diabetes" target="Patient_135">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Type 2 Diabetes" target="Patient_138">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Type 2 Diabetes" target="Patient_140">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Type 2 Diabetes" target="Patient_142">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="Type 2 Diabetes" target="Patient_151">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Type 2 Diabetes" target="Patient_164">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Type 2 Diabetes" target="Patient_165">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Type 2 Diabetes" target="Patient_166">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Type 2 Diabetes" target="Patient_172">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Type 2 Diabetes" target="Patient_182">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Type 2 Diabetes" target="Patient_185">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="Type 2 Diabetes" target="Patient_186">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="Type 2 Diabetes" target="Patient_190">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Type 2 Diabetes" target="Patient_194">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Type 2 Diabetes" target="Patient_196">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Type 2 Diabetes" target="Patient_197">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Type 2 Diabetes" target="Patient_198">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="Type 2 Diabetes" target="Patient_199">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="Type 2 Diabetes" target="Patient_202">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Type 2 Diabetes" target="Patient_203">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Type 2 Diabetes" target="Patient_218">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="Type 2 Diabetes" target="Patient_219">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Type 2 Diabetes" target="Patient_224">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Type 2 Diabetes" target="Patient_225">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Type 2 Diabetes" target="Patient_229">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Type 2 Diabetes" target="Patient_239">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Type 2 Diabetes" target="Patient_240">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Type 2 Diabetes" target="Patient_250">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Type 2 Diabetes" target="Patient_253">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Type 2 Diabetes" target="Patient_259">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Type 2 Diabetes" target="Patient_266">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Type 2 Diabetes" target="Patient_274">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Type 2 Diabetes" target="Patient_276">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Type 2 Diabetes" target="Patient_278">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Type 2 Diabetes" target="Patient_289">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Type 2 Diabetes" target="Patient_295">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Type 2 Diabetes" target="Patient_296">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Type 2 Diabetes" target="Patient_297">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Type 2 Diabetes" target="Patient_299">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Type 2 Diabetes" target="Patient_300">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Type 2 Diabetes" target="Insulin Resistance">
+  <data key="d1">is_precursor_to</data>
+</edge>
+<edge source="Type 2 Diabetes" target="Hypertension">
+  <data key="d1">is_comorbid_with</data>
+</edge>
+<edge source="Type 2 Diabetes" target="PCOS">
+  <data key="d1">increases_risk_of</data>
+</edge>
+<edge source="Type 2 Diabetes" target="Gestational Diabetes">
+  <data key="d1">increases_risk_of</data>
+</edge>
+<edge source="Type 2 Diabetes" target="Metformin">
+  <data key="d1">is_first_line_treatment_for</data>
+</edge>
+<edge source="Type 2 Diabetes" target="Diet High in Processed Foods">
+  <data key="d1">increases_risk_of</data>
+</edge>
+<edge source="Patient_003" target="Elevated HbA1c">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="Elevated HbA1c" target="Patient_004">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="Elevated HbA1c" target="Patient_035">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="Elevated HbA1c" target="Patient_037">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="Elevated HbA1c" target="Patient_048">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="Elevated HbA1c" target="Patient_053">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="Elevated HbA1c" target="Patient_058">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="Elevated HbA1c" target="Patient_073">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="Elevated HbA1c" target="Patient_076">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="Elevated HbA1c" target="Patient_078">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="Elevated HbA1c" target="Patient_127">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="Elevated HbA1c" target="Patient_154">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="Elevated HbA1c" target="Patient_161">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="Elevated HbA1c" target="Patient_168">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="Elevated HbA1c" target="Patient_174">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="Elevated HbA1c" target="Patient_198">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="Elevated HbA1c" target="Patient_204">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="Elevated HbA1c" target="Patient_209">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="Elevated HbA1c" target="Patient_211">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="Elevated HbA1c" target="Patient_259">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="Elevated HbA1c" target="Patient_287">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="Elevated HbA1c" target="Patient_296">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="Elevated HbA1c" target="Patient_300">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="Patient_004" target="Foot Numbness">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Patient_004" target="Gestational Diabetes">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="Patient_004" target="Statin">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="Foot Numbness" target="Patient_035">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Foot Numbness" target="Patient_052">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Foot Numbness" target="Patient_066">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Foot Numbness" target="Patient_074">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Foot Numbness" target="Patient_076">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Foot Numbness" target="Patient_111">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Foot Numbness" target="Patient_130">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Foot Numbness" target="Patient_135">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Foot Numbness" target="Patient_161">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Foot Numbness" target="Patient_169">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Foot Numbness" target="Patient_188">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Foot Numbness" target="Patient_198">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Foot Numbness" target="Patient_212">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Foot Numbness" target="Patient_214">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Foot Numbness" target="Patient_227">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Foot Numbness" target="Patient_239">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Gestational Diabetes" target="Patient_014">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="Gestational Diabetes" target="Patient_019">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="Gestational Diabetes" target="Patient_025">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="Gestational Diabetes" target="Patient_042">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="Gestational Diabetes" target="Patient_052">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="Gestational Diabetes" target="Patient_083">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="Gestational Diabetes" target="Patient_087">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="Gestational Diabetes" target="Patient_129">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="Gestational Diabetes" target="Patient_161">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="Gestational Diabetes" target="Patient_178">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="Gestational Diabetes" target="Patient_190">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="Gestational Diabetes" target="Patient_217">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="Gestational Diabetes" target="Patient_235">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="Gestational Diabetes" target="Patient_260">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="Gestational Diabetes" target="Patient_281">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="Statin" target="Patient_044">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="Statin" target="Patient_057">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="Statin" target="Patient_061">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="Statin" target="Patient_086">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="Statin" target="Patient_087">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="Statin" target="Patient_095">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="Statin" target="Patient_106">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="Statin" target="Patient_109">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="Statin" target="Patient_110">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="Statin" target="Patient_122">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="Statin" target="Patient_126">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="Statin" target="Patient_138">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="Statin" target="Patient_139">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="Statin" target="Patient_170">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="Statin" target="Patient_175">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="Statin" target="Patient_187">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="Statin" target="Patient_197">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="Statin" target="Patient_213">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="Statin" target="Patient_215">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="Statin" target="Patient_216">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="Statin" target="Patient_230">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="Statin" target="Patient_243">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="Statin" target="Patient_247">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="Statin" target="Patient_253">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="Statin" target="Patient_257">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="Statin" target="Patient_267">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="Statin" target="Patient_270">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="Statin" target="Patient_273">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="Statin" target="Patient_297">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="Patient_005" target="Physical Activity">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Patient_005" target="Type 1 Diabetes">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="Physical Activity" target="Patient_023">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Physical Activity" target="Patient_053">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Physical Activity" target="Patient_056">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Physical Activity" target="Patient_061">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Physical Activity" target="Patient_062">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Physical Activity" target="Patient_074">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Physical Activity" target="Patient_078">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Physical Activity" target="Patient_086">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Physical Activity" target="Patient_089">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Physical Activity" target="Patient_090">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Physical Activity" target="Patient_091">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Physical Activity" target="Patient_114">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Physical Activity" target="Patient_128">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Physical Activity" target="Patient_142">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Physical Activity" target="Patient_156">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Physical Activity" target="Patient_173">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Physical Activity" target="Patient_174">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Physical Activity" target="Patient_176">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Physical Activity" target="Patient_181">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Physical Activity" target="Patient_185">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Physical Activity" target="Patient_187">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Physical Activity" target="Patient_212">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Physical Activity" target="Patient_216">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Physical Activity" target="Patient_221">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Physical Activity" target="Patient_233">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Physical Activity" target="Patient_241">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Physical Activity" target="Patient_242">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Physical Activity" target="Patient_253">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Physical Activity" target="Patient_277">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Physical Activity" target="Patient_292">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Physical Activity" target="Patient_296">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Physical Activity" target="Patient_299">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Physical Activity" target="Insulin Sensitivity">
+  <data key="d1">improves</data>
+</edge>
+<edge source="Type 1 Diabetes" target="Patient_006">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="Type 1 Diabetes" target="Patient_022">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="Type 1 Diabetes" target="Patient_023">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="Type 1 Diabetes" target="Patient_027">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="Type 1 Diabetes" target="Patient_076">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="Type 1 Diabetes" target="Patient_093">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="Type 1 Diabetes" target="Patient_100">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="Type 1 Diabetes" target="Patient_117">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="Type 1 Diabetes" target="Patient_128">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="Type 1 Diabetes" target="Patient_141">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="Type 1 Diabetes" target="Patient_149">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="Type 1 Diabetes" target="Patient_155">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="Type 1 Diabetes" target="Patient_170">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="Type 1 Diabetes" target="Patient_174">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="Type 1 Diabetes" target="Patient_191">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="Type 1 Diabetes" target="Patient_271">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="Type 1 Diabetes" target="Patient_283">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="Type 1 Diabetes" target="Patient_295">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="Type 1 Diabetes" target="Insulin">
+  <data key="d1">treats</data>
+</edge>
+<edge source="Type 1 Diabetes" target="Autoimmunity">
+  <data key="d1">is_cause_of</data>
+</edge>
+<edge source="Patient_006" target="Diet High in Processed Foods">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Patient_006" target="Antihypertensives">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="Diet High in Processed Foods" target="Patient_007">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Diet High in Processed Foods" target="Patient_012">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Diet High in Processed Foods" target="Patient_020">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Diet High in Processed Foods" target="Patient_028">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Diet High in Processed Foods" target="Patient_037">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Diet High in Processed Foods" target="Patient_038">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Diet High in Processed Foods" target="Patient_043">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Diet High in Processed Foods" target="Patient_083">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Diet High in Processed Foods" target="Patient_117">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Diet High in Processed Foods" target="Patient_124">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Diet High in Processed Foods" target="Patient_137">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Diet High in Processed Foods" target="Patient_141">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Diet High in Processed Foods" target="Patient_155">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Diet High in Processed Foods" target="Patient_162">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Diet High in Processed Foods" target="Patient_163">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Diet High in Processed Foods" target="Patient_165">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Diet High in Processed Foods" target="Patient_182">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Diet High in Processed Foods" target="Patient_186">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Diet High in Processed Foods" target="Patient_194">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Diet High in Processed Foods" target="Patient_219">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Diet High in Processed Foods" target="Patient_231">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Diet High in Processed Foods" target="Patient_237">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Diet High in Processed Foods" target="Patient_239">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Diet High in Processed Foods" target="Patient_245">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Diet High in Processed Foods" target="Patient_246">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Diet High in Processed Foods" target="Patient_256">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Diet High in Processed Foods" target="Patient_300">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Antihypertensives" target="Patient_018">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="Antihypertensives" target="Patient_022">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="Antihypertensives" target="Patient_030">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="Antihypertensives" target="Patient_032">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="Antihypertensives" target="Patient_034">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="Antihypertensives" target="Patient_039">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="Antihypertensives" target="Patient_046">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="Antihypertensives" target="Patient_055">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="Antihypertensives" target="Patient_058">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="Antihypertensives" target="Patient_066">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="Antihypertensives" target="Patient_113">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="Antihypertensives" target="Patient_118">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="Antihypertensives" target="Patient_124">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="Antihypertensives" target="Patient_134">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="Antihypertensives" target="Patient_140">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="Antihypertensives" target="Patient_154">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="Antihypertensives" target="Patient_158">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="Antihypertensives" target="Patient_174">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="Antihypertensives" target="Patient_185">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="Antihypertensives" target="Patient_186">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="Antihypertensives" target="Patient_192">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="Antihypertensives" target="Patient_193">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="Antihypertensives" target="Patient_219">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="Antihypertensives" target="Patient_220">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="Antihypertensives" target="Patient_233">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="Antihypertensives" target="Patient_236">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="Antihypertensives" target="Patient_239">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="Antihypertensives" target="Patient_240">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="Antihypertensives" target="Patient_251">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="Antihypertensives" target="Patient_265">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="Antihypertensives" target="Patient_298">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="Antihypertensives" target="Patient_299">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="Patient_007" target="Hypertension">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Hypertension" target="Patient_008">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Hypertension" target="Patient_010">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Hypertension" target="Patient_011">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Hypertension" target="Patient_015">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Hypertension" target="Patient_016">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Hypertension" target="Patient_019">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Hypertension" target="Patient_020">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="Hypertension" target="Patient_022">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Hypertension" target="Patient_026">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Hypertension" target="Patient_030">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Hypertension" target="Patient_038">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Hypertension" target="Patient_043">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Hypertension" target="Patient_044">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Hypertension" target="Patient_046">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Hypertension" target="Patient_049">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Hypertension" target="Patient_050">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Hypertension" target="Patient_052">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Hypertension" target="Patient_056">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Hypertension" target="Patient_059">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Hypertension" target="Patient_064">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Hypertension" target="Patient_066">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Hypertension" target="Patient_082">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Hypertension" target="Patient_085">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Hypertension" target="Patient_089">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Hypertension" target="Patient_091">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Hypertension" target="Patient_096">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Hypertension" target="Patient_100">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Hypertension" target="Patient_105">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Hypertension" target="Patient_111">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Hypertension" target="Patient_114">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Hypertension" target="Patient_116">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Hypertension" target="Patient_127">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Hypertension" target="Patient_131">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Hypertension" target="Patient_133">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Hypertension" target="Patient_136">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Hypertension" target="Patient_139">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Hypertension" target="Patient_142">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Hypertension" target="Patient_143">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="Hypertension" target="Patient_148">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Hypertension" target="Patient_149">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Hypertension" target="Patient_150">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="Hypertension" target="Patient_157">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Hypertension" target="Patient_161">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Hypertension" target="Patient_162">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="Hypertension" target="Patient_170">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Hypertension" target="Patient_172">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="Hypertension" target="Patient_180">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Hypertension" target="Patient_183">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Hypertension" target="Patient_184">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Hypertension" target="Patient_185">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Hypertension" target="Patient_188">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Hypertension" target="Patient_189">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Hypertension" target="Patient_192">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="Hypertension" target="Patient_197">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="Hypertension" target="Patient_202">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="Hypertension" target="Patient_205">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Hypertension" target="Patient_207">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Hypertension" target="Patient_215">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Hypertension" target="Patient_221">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Hypertension" target="Patient_222">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Hypertension" target="Patient_231">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Hypertension" target="Patient_232">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Hypertension" target="Patient_235">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Hypertension" target="Patient_238">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Hypertension" target="Patient_242">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Hypertension" target="Patient_244">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Hypertension" target="Patient_247">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Hypertension" target="Patient_252">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Hypertension" target="Patient_256">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Hypertension" target="Patient_257">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Hypertension" target="Patient_263">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Hypertension" target="Patient_268">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Hypertension" target="Patient_269">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="Hypertension" target="Patient_271">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Hypertension" target="Patient_275">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Hypertension" target="Patient_277">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Hypertension" target="Patient_279">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Hypertension" target="Patient_280">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Hypertension" target="Patient_282">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Hypertension" target="Patient_287">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Hypertension" target="Patient_290">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Hypertension" target="Patient_291">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Hypertension" target="Patient_292">
+  <data key="d1">has_family_history_of</data>
+</edge>
+<edge source="Hypertension" target="Diabetic Nephropathy">
+  <data key="d1">accelerates_progression_of</data>
+</edge>
+<edge source="Patient_008" target="Elevated Creatinine">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="Patient_008" target="PCOS">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="Patient_008" target="Headaches">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Elevated Creatinine" target="Patient_011">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="Elevated Creatinine" target="Patient_026">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="Elevated Creatinine" target="Patient_046">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="Elevated Creatinine" target="Patient_074">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="Elevated Creatinine" target="Patient_079">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="Elevated Creatinine" target="Patient_082">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="Elevated Creatinine" target="Patient_086">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="Elevated Creatinine" target="Patient_108">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="Elevated Creatinine" target="Patient_139">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="Elevated Creatinine" target="Patient_149">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="Elevated Creatinine" target="Patient_157">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="Elevated Creatinine" target="Patient_178">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="Elevated Creatinine" target="Patient_222">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="Elevated Creatinine" target="Patient_238">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="Elevated Creatinine" target="Patient_241">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="Elevated Creatinine" target="Patient_249">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="Elevated Creatinine" target="Patient_280">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="Elevated Creatinine" target="Patient_297">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="PCOS" target="Patient_081">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="PCOS" target="Patient_095">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="PCOS" target="Patient_096">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="PCOS" target="Patient_107">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="PCOS" target="Patient_108">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="PCOS" target="Patient_112">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="PCOS" target="Patient_163">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="PCOS" target="Patient_164">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="PCOS" target="Patient_182">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="PCOS" target="Patient_196">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="PCOS" target="Patient_204">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="PCOS" target="Patient_209">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="PCOS" target="Patient_210">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="PCOS" target="Patient_224">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="PCOS" target="Patient_229">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="PCOS" target="Patient_232">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="PCOS" target="Patient_236">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="PCOS" target="Patient_254">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="PCOS" target="Patient_265">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="PCOS" target="Patient_270">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="Headaches" target="Patient_033">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Headaches" target="Patient_048">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Headaches" target="Patient_078">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Headaches" target="Patient_081">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Headaches" target="Patient_086">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Headaches" target="Patient_099">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Headaches" target="Patient_106">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Headaches" target="Patient_144">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Headaches" target="Patient_158">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Headaches" target="Patient_159">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Headaches" target="Patient_170">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Headaches" target="Patient_218">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Headaches" target="Patient_256">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Headaches" target="Patient_266">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Headaches" target="Patient_281">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Patient_009" target="Chronic Kidney Disease">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="Patient_009" target="Unexplained Weight Loss">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Patient_009" target="Heavy Alcohol Use">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Chronic Kidney Disease" target="Patient_053">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="Chronic Kidney Disease" target="Patient_077">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="Chronic Kidney Disease" target="Patient_086">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="Chronic Kidney Disease" target="Patient_099">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="Chronic Kidney Disease" target="Patient_104">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="Chronic Kidney Disease" target="Patient_125">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="Chronic Kidney Disease" target="Patient_133">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="Chronic Kidney Disease" target="Patient_138">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="Chronic Kidney Disease" target="Patient_148">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="Chronic Kidney Disease" target="Patient_154">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="Chronic Kidney Disease" target="Patient_215">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="Chronic Kidney Disease" target="Patient_221">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="Chronic Kidney Disease" target="Patient_228">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="Chronic Kidney Disease" target="Patient_234">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="Chronic Kidney Disease" target="Patient_257">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="Chronic Kidney Disease" target="Patient_266">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="Chronic Kidney Disease" target="Patient_287">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="Chronic Kidney Disease" target="Patient_288">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="Chronic Kidney Disease" target="Diabetes">
+  <data key="d1">is_leading_cause_of</data>
+</edge>
+<edge source="Unexplained Weight Loss" target="Patient_012">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Unexplained Weight Loss" target="Patient_025">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Unexplained Weight Loss" target="Patient_082">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Unexplained Weight Loss" target="Patient_089">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Unexplained Weight Loss" target="Patient_131">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Unexplained Weight Loss" target="Patient_137">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Unexplained Weight Loss" target="Patient_145">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Unexplained Weight Loss" target="Patient_154">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Unexplained Weight Loss" target="Patient_157">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Unexplained Weight Loss" target="Patient_180">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Unexplained Weight Loss" target="Patient_181">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Unexplained Weight Loss" target="Patient_184">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Unexplained Weight Loss" target="Patient_186">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Unexplained Weight Loss" target="Patient_189">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Unexplained Weight Loss" target="Patient_195">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Unexplained Weight Loss" target="Patient_205">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Unexplained Weight Loss" target="Patient_208">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Unexplained Weight Loss" target="Patient_231">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Unexplained Weight Loss" target="Patient_232">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Unexplained Weight Loss" target="Patient_233">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Unexplained Weight Loss" target="Patient_274">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Unexplained Weight Loss" target="Patient_283">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Heavy Alcohol Use" target="Patient_013">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Heavy Alcohol Use" target="Patient_019">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Heavy Alcohol Use" target="Patient_033">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Heavy Alcohol Use" target="Patient_034">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Heavy Alcohol Use" target="Patient_051">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Heavy Alcohol Use" target="Patient_052">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Heavy Alcohol Use" target="Patient_065">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Heavy Alcohol Use" target="Patient_068">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Heavy Alcohol Use" target="Patient_069">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Heavy Alcohol Use" target="Patient_073">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Heavy Alcohol Use" target="Patient_081">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Heavy Alcohol Use" target="Patient_084">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Heavy Alcohol Use" target="Patient_094">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Heavy Alcohol Use" target="Patient_100">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Heavy Alcohol Use" target="Patient_110">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Heavy Alcohol Use" target="Patient_111">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Heavy Alcohol Use" target="Patient_121">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Heavy Alcohol Use" target="Patient_126">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Heavy Alcohol Use" target="Patient_134">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Heavy Alcohol Use" target="Patient_135">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Heavy Alcohol Use" target="Patient_140">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Heavy Alcohol Use" target="Patient_148">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Heavy Alcohol Use" target="Patient_149">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Heavy Alcohol Use" target="Patient_161">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Heavy Alcohol Use" target="Patient_183">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Heavy Alcohol Use" target="Patient_196">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Heavy Alcohol Use" target="Patient_201">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Heavy Alcohol Use" target="Patient_203">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Heavy Alcohol Use" target="Patient_213">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Heavy Alcohol Use" target="Patient_243">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Heavy Alcohol Use" target="Patient_247">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Heavy Alcohol Use" target="Patient_274">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Heavy Alcohol Use" target="Patient_293">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Patient_010" target="Positive Autoantibodies">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="Patient_010" target="Stress">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Patient_010" target="NAFLD">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="Positive Autoantibodies" target="Patient_015">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="Positive Autoantibodies" target="Patient_042">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="Positive Autoantibodies" target="Patient_054">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="Positive Autoantibodies" target="Patient_069">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="Positive Autoantibodies" target="Patient_070">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="Positive Autoantibodies" target="Patient_085">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="Positive Autoantibodies" target="Patient_087">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="Positive Autoantibodies" target="Patient_092">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="Positive Autoantibodies" target="Patient_102">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="Positive Autoantibodies" target="Patient_105">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="Positive Autoantibodies" target="Patient_132">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="Positive Autoantibodies" target="Patient_133">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="Positive Autoantibodies" target="Patient_135">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="Positive Autoantibodies" target="Patient_137">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="Positive Autoantibodies" target="Patient_146">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="Positive Autoantibodies" target="Patient_164">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="Positive Autoantibodies" target="Patient_172">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="Positive Autoantibodies" target="Patient_179">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="Positive Autoantibodies" target="Patient_188">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="Positive Autoantibodies" target="Patient_191">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="Positive Autoantibodies" target="Patient_206">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="Positive Autoantibodies" target="Patient_233">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="Positive Autoantibodies" target="Patient_242">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="Positive Autoantibodies" target="Patient_258">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="Positive Autoantibodies" target="Patient_267">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="Positive Autoantibodies" target="Patient_285">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="Positive Autoantibodies" target="Patient_289">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="Positive Autoantibodies" target="Patient_290">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="Stress" target="Patient_014">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Stress" target="Patient_021">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Stress" target="Patient_025">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Stress" target="Patient_036">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Stress" target="Patient_040">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Stress" target="Patient_046">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Stress" target="Patient_048">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Stress" target="Patient_050">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Stress" target="Patient_060">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Stress" target="Patient_082">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Stress" target="Patient_085">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Stress" target="Patient_107">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Stress" target="Patient_109">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Stress" target="Patient_152">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Stress" target="Patient_164">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Stress" target="Patient_169">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Stress" target="Patient_178">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Stress" target="Patient_180">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Stress" target="Patient_188">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Stress" target="Patient_189">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Stress" target="Patient_202">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Stress" target="Patient_206">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Stress" target="Patient_207">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Stress" target="Patient_232">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Stress" target="Patient_248">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Stress" target="Patient_249">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Stress" target="Patient_255">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Stress" target="Patient_257">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Stress" target="Patient_267">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Stress" target="Patient_284">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Stress" target="Patient_290">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="NAFLD" target="Patient_061">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="NAFLD" target="Patient_068">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="NAFLD" target="Patient_069">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="NAFLD" target="Patient_075">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="NAFLD" target="Patient_105">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="NAFLD" target="Patient_110">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="NAFLD" target="Patient_118">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="NAFLD" target="Patient_126">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="NAFLD" target="Patient_165">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="NAFLD" target="Patient_180">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="NAFLD" target="Patient_183">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="NAFLD" target="Patient_187">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="NAFLD" target="Patient_193">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="NAFLD" target="Patient_207">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="NAFLD" target="Patient_208">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="NAFLD" target="Patient_211">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="NAFLD" target="Patient_216">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="NAFLD" target="Patient_220">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="NAFLD" target="Patient_259">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="NAFLD" target="Patient_262">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="NAFLD" target="Patient_296">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="Patient_012" target="Laser Photocoagulation">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="Laser Photocoagulation" target="Patient_015">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="Laser Photocoagulation" target="Patient_023">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="Laser Photocoagulation" target="Patient_036">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="Laser Photocoagulation" target="Patient_037">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="Laser Photocoagulation" target="Patient_059">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="Laser Photocoagulation" target="Patient_062">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="Laser Photocoagulation" target="Patient_064">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="Laser Photocoagulation" target="Patient_071">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="Laser Photocoagulation" target="Patient_075">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="Laser Photocoagulation" target="Patient_088">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="Laser Photocoagulation" target="Patient_094">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="Laser Photocoagulation" target="Patient_102">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="Laser Photocoagulation" target="Patient_107">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="Laser Photocoagulation" target="Patient_125">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="Laser Photocoagulation" target="Patient_127">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="Laser Photocoagulation" target="Patient_135">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="Laser Photocoagulation" target="Patient_137">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="Laser Photocoagulation" target="Patient_157">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="Laser Photocoagulation" target="Patient_166">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="Laser Photocoagulation" target="Patient_167">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="Laser Photocoagulation" target="Patient_168">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="Laser Photocoagulation" target="Patient_171">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="Laser Photocoagulation" target="Patient_203">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="Laser Photocoagulation" target="Patient_206">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="Laser Photocoagulation" target="Patient_209">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="Laser Photocoagulation" target="Patient_255">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="Laser Photocoagulation" target="Patient_260">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="Laser Photocoagulation" target="Patient_266">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="Laser Photocoagulation" target="Patient_272">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="Laser Photocoagulation" target="Patient_285">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="Laser Photocoagulation" target="Patient_295">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="Laser Photocoagulation" target="Patient_300">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="Patient_013" target="Insulin">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="Insulin" target="Patient_014">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="Insulin" target="Patient_026">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="Insulin" target="Patient_027">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="Insulin" target="Patient_029">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="Insulin" target="Patient_040">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="Insulin" target="Patient_050">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="Insulin" target="Patient_077">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="Insulin" target="Patient_100">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="Insulin" target="Patient_105">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="Insulin" target="Patient_128">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="Insulin" target="Patient_162">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="Insulin" target="Patient_164">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="Insulin" target="Patient_173">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="Insulin" target="Patient_176">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="Insulin" target="Patient_179">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="Insulin" target="Patient_184">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="Insulin" target="Patient_188">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="Insulin" target="Patient_190">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="Insulin" target="Patient_231">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="Insulin" target="Patient_232">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="Insulin" target="Patient_234">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="Insulin" target="Patient_252">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="Insulin" target="Patient_254">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="Insulin" target="Patient_277">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="Insulin" target="Patient_290">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="Insulin" target="Patient_291">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="Patient_014" target="Vomiting">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Vomiting" target="Patient_018">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Vomiting" target="Patient_029">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Vomiting" target="Patient_043">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Vomiting" target="Patient_058">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Vomiting" target="Patient_062">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Vomiting" target="Patient_073">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Vomiting" target="Patient_079">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Vomiting" target="Patient_094">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Vomiting" target="Patient_100">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Vomiting" target="Patient_101">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Vomiting" target="Patient_146">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Vomiting" target="Patient_174">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Vomiting" target="Patient_192">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Vomiting" target="Patient_196">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Vomiting" target="Patient_215">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Vomiting" target="Patient_216">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Vomiting" target="Patient_272">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Vomiting" target="Patient_273">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Vomiting" target="Patient_277">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Patient_015" target="Frequent Urination">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Patient_015" target="Diabetic Retinopathy">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="Frequent Urination" target="Patient_034">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Frequent Urination" target="Patient_054">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Frequent Urination" target="Patient_070">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Frequent Urination" target="Patient_071">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Frequent Urination" target="Patient_080">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Frequent Urination" target="Patient_132">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Frequent Urination" target="Patient_142">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Frequent Urination" target="Patient_148">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Frequent Urination" target="Patient_149">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Frequent Urination" target="Patient_163">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Frequent Urination" target="Patient_185">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Frequent Urination" target="Patient_199">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Frequent Urination" target="Patient_230">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Frequent Urination" target="Patient_236">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Frequent Urination" target="Patient_296">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Frequent Urination" target="Patient_297">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Diabetic Retinopathy" target="Patient_057">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="Diabetic Retinopathy" target="Patient_060">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="Diabetic Retinopathy" target="Patient_062">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="Diabetic Retinopathy" target="Patient_082">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="Diabetic Retinopathy" target="Patient_097">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="Diabetic Retinopathy" target="Patient_101">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="Diabetic Retinopathy" target="Patient_124">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="Diabetic Retinopathy" target="Patient_167">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="Diabetic Retinopathy" target="Patient_175">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="Diabetic Retinopathy" target="Patient_176">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="Diabetic Retinopathy" target="Patient_184">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="Diabetic Retinopathy" target="Patient_222">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="Diabetic Retinopathy" target="Patient_226">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="Diabetic Retinopathy" target="Patient_231">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="Diabetic Retinopathy" target="Patient_249">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="Diabetic Retinopathy" target="Patient_267">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="Diabetic Retinopathy" target="Patient_274">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="Diabetic Retinopathy" target="Patient_286">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="Diabetic Retinopathy" target="Diabetes">
+  <data key="d1">is_leading_cause_of</data>
+</edge>
+<edge source="Diabetic Retinopathy" target="Vision Loss">
+  <data key="d1">can_lead_to</data>
+</edge>
+<edge source="Diabetic Retinopathy" target="Macular Edema">
+  <data key="d1">is_complication_of</data>
+</edge>
+<edge source="Patient_016" target="Insomnia">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Patient_016" target="Smoking">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Patient_016" target="ACE Inhibitor">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="Insomnia" target="Patient_068">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Insomnia" target="Patient_087">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Insomnia" target="Patient_092">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Insomnia" target="Patient_105">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Insomnia" target="Patient_109">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Insomnia" target="Patient_113">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Insomnia" target="Patient_119">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Insomnia" target="Patient_127">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Insomnia" target="Patient_134">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Insomnia" target="Patient_194">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Insomnia" target="Patient_197">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Insomnia" target="Patient_209">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Insomnia" target="Patient_222">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Insomnia" target="Patient_223">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Insomnia" target="Patient_238">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Insomnia" target="Patient_247">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Insomnia" target="Patient_260">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Insomnia" target="Patient_278">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Insomnia" target="Patient_298">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Insomnia" target="Patient_299">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Smoking" target="Patient_041">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Smoking" target="Patient_045">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Smoking" target="Patient_057">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Smoking" target="Patient_088">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Smoking" target="Patient_101">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Smoking" target="Patient_105">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Smoking" target="Patient_108">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Smoking" target="Patient_113">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Smoking" target="Patient_133">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Smoking" target="Patient_144">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Smoking" target="Patient_151">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Smoking" target="Patient_154">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Smoking" target="Patient_157">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Smoking" target="Patient_159">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Smoking" target="Patient_225">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Smoking" target="Patient_236">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Smoking" target="Patient_280">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Smoking" target="Patient_294">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Smoking" target="Patient_297">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="ACE Inhibitor" target="Patient_021">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="ACE Inhibitor" target="Patient_069">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="ACE Inhibitor" target="Patient_073">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="ACE Inhibitor" target="Patient_081">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="ACE Inhibitor" target="Patient_083">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="ACE Inhibitor" target="Patient_089">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="ACE Inhibitor" target="Patient_097">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="ACE Inhibitor" target="Patient_111">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="ACE Inhibitor" target="Patient_120">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="ACE Inhibitor" target="Patient_149">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="ACE Inhibitor" target="Patient_160">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="ACE Inhibitor" target="Patient_161">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="ACE Inhibitor" target="Patient_163">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="ACE Inhibitor" target="Patient_172">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="ACE Inhibitor" target="Patient_183">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="ACE Inhibitor" target="Patient_189">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="ACE Inhibitor" target="Patient_191">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="ACE Inhibitor" target="Patient_200">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="ACE Inhibitor" target="Patient_211">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="ACE Inhibitor" target="Patient_227">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="ACE Inhibitor" target="Patient_228">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="ACE Inhibitor" target="Patient_229">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="ACE Inhibitor" target="Patient_235">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="ACE Inhibitor" target="Patient_237">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="ACE Inhibitor" target="Patient_238">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="ACE Inhibitor" target="Patient_258">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="ACE Inhibitor" target="Patient_262">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="ACE Inhibitor" target="Patient_274">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="ACE Inhibitor" target="Patient_280">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="ACE Inhibitor" target="Patient_282">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="ACE Inhibitor" target="Patient_283">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="Patient_017" target="Elevated Liver Enzymes">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="Elevated Liver Enzymes" target="Patient_019">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="Elevated Liver Enzymes" target="Patient_025">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="Elevated Liver Enzymes" target="Patient_030">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="Elevated Liver Enzymes" target="Patient_034">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="Elevated Liver Enzymes" target="Patient_067">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="Elevated Liver Enzymes" target="Patient_075">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="Elevated Liver Enzymes" target="Patient_077">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="Elevated Liver Enzymes" target="Patient_100">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="Elevated Liver Enzymes" target="Patient_101">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="Elevated Liver Enzymes" target="Patient_104">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="Elevated Liver Enzymes" target="Patient_107">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="Elevated Liver Enzymes" target="Patient_120">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="Elevated Liver Enzymes" target="Patient_122">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="Elevated Liver Enzymes" target="Patient_126">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="Elevated Liver Enzymes" target="Patient_143">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="Elevated Liver Enzymes" target="Patient_158">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="Elevated Liver Enzymes" target="Patient_165">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="Elevated Liver Enzymes" target="Patient_170">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="Elevated Liver Enzymes" target="Patient_176">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="Elevated Liver Enzymes" target="Patient_203">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="Elevated Liver Enzymes" target="Patient_232">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="Elevated Liver Enzymes" target="Patient_256">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="Elevated Liver Enzymes" target="Patient_268">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="Elevated Liver Enzymes" target="Patient_282">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="Elevated Liver Enzymes" target="Patient_288">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="Elevated Liver Enzymes" target="Patient_292">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="Patient_019" target="Metformin">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="Patient_019" target="Blurred Vision">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Metformin" target="Patient_031">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="Metformin" target="Patient_038">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="Metformin" target="Patient_042">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="Metformin" target="Patient_047">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="Metformin" target="Patient_052">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="Metformin" target="Patient_065">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="Metformin" target="Patient_070">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="Metformin" target="Patient_078">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="Metformin" target="Patient_082">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="Metformin" target="Patient_084">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="Metformin" target="Patient_098">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="Metformin" target="Patient_143">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="Metformin" target="Patient_146">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="Metformin" target="Patient_147">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="Metformin" target="Patient_148">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="Metformin" target="Patient_155">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="Metformin" target="Patient_181">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="Metformin" target="Patient_196">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="Metformin" target="Patient_214">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="Metformin" target="Patient_222">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="Metformin" target="Patient_241">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="Metformin" target="Patient_244">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="Metformin" target="Patient_248">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="Metformin" target="Patient_261">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="Metformin" target="Patient_271">
+  <data key="d1">prescribed</data>
+</edge>
+<edge source="Blurred Vision" target="Patient_046">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Blurred Vision" target="Patient_063">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Blurred Vision" target="Patient_069">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Blurred Vision" target="Patient_120">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Blurred Vision" target="Patient_128">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Blurred Vision" target="Patient_167">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Blurred Vision" target="Patient_172">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Blurred Vision" target="Patient_202">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Blurred Vision" target="Patient_211">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Blurred Vision" target="Patient_246">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Blurred Vision" target="Patient_262">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Blurred Vision" target="Patient_265">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Blurred Vision" target="Patient_290">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Blurred Vision" target="Patient_295">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Patient_020" target="Nausea">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Nausea" target="Patient_036">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Nausea" target="Patient_056">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Nausea" target="Patient_085">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Nausea" target="Patient_107">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Nausea" target="Patient_122">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Nausea" target="Patient_139">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Nausea" target="Patient_176">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Nausea" target="Patient_213">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Nausea" target="Patient_217">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Nausea" target="Patient_220">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Nausea" target="Patient_226">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Nausea" target="Patient_250">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Nausea" target="Patient_253">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Nausea" target="Patient_254">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Nausea" target="Patient_258">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Nausea" target="Patient_293">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Patient_022" target="Insulin Resistance">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="Patient_022" target="Fatigue">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Patient_022" target="Poor Diet">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Insulin Resistance" target="Patient_040">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="Insulin Resistance" target="Patient_050">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="Insulin Resistance" target="Patient_055">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="Insulin Resistance" target="Patient_063">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="Insulin Resistance" target="Patient_068">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="Insulin Resistance" target="Patient_123">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="Insulin Resistance" target="Patient_145">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="Insulin Resistance" target="Patient_147">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="Insulin Resistance" target="Patient_151">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="Insulin Resistance" target="Patient_156">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="Insulin Resistance" target="Patient_186">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="Insulin Resistance" target="Patient_208">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="Insulin Resistance" target="Patient_210">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="Insulin Resistance" target="Patient_212">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="Insulin Resistance" target="Patient_215">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="Insulin Resistance" target="Patient_216">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="Insulin Resistance" target="Patient_228">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="Insulin Resistance" target="Patient_235">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="Insulin Resistance" target="Patient_253">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="Insulin Resistance" target="Patient_266">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="Insulin Resistance" target="Patient_295">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="Insulin Resistance" target="Patient_298">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="Insulin Resistance" target="Metabolic Syndrome">
+  <data key="d1">includes</data>
+</edge>
+<edge source="Insulin Resistance" target="Non-Alcoholic Fatty Liver Disease (NAFLD)">
+  <data key="d1">is_associated_with</data>
+</edge>
+<edge source="Insulin Resistance" target="Visceral Fat">
+  <data key="d1">is_strongly_linked_to</data>
+</edge>
+<edge source="Fatigue" target="Patient_026">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Fatigue" target="Patient_065">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Fatigue" target="Patient_095">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Fatigue" target="Patient_097">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Fatigue" target="Patient_114">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Fatigue" target="Patient_123">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Fatigue" target="Patient_124">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Fatigue" target="Patient_125">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Fatigue" target="Patient_143">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Fatigue" target="Patient_171">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Fatigue" target="Patient_175">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Fatigue" target="Patient_203">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Fatigue" target="Patient_206">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Fatigue" target="Patient_241">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Fatigue" target="Patient_244">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Fatigue" target="Patient_251">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Fatigue" target="Patient_252">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Fatigue" target="Patient_264">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Fatigue" target="Patient_279">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Fatigue" target="Patient_284">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Fatigue" target="Patient_286">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Poor Diet" target="Patient_064">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Poor Diet" target="Patient_070">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Poor Diet" target="Patient_092">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Poor Diet" target="Patient_115">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Poor Diet" target="Patient_122">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Poor Diet" target="Patient_129">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Poor Diet" target="Patient_143">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Poor Diet" target="Patient_146">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Poor Diet" target="Patient_150">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Poor Diet" target="Patient_158">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Poor Diet" target="Patient_167">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Poor Diet" target="Patient_184">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Poor Diet" target="Patient_195">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Poor Diet" target="Patient_197">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Poor Diet" target="Patient_198">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Poor Diet" target="Patient_199">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Poor Diet" target="Patient_204">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Poor Diet" target="Patient_211">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Poor Diet" target="Patient_215">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Poor Diet" target="Patient_220">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Poor Diet" target="Patient_222">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Poor Diet" target="Patient_224">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Poor Diet" target="Patient_226">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Poor Diet" target="Patient_230">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Poor Diet" target="Patient_240">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Poor Diet" target="Patient_254">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Poor Diet" target="Patient_262">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Poor Diet" target="Patient_265">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Poor Diet" target="Patient_271">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Poor Diet" target="Patient_272">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Poor Diet" target="Patient_282">
+  <data key="d1">has_behavioral_pattern</data>
+</edge>
+<edge source="Patient_023" target="High Cholesterol">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="High Cholesterol" target="Patient_038">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="High Cholesterol" target="Patient_039">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="High Cholesterol" target="Patient_041">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="High Cholesterol" target="Patient_045">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="High Cholesterol" target="Patient_064">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="High Cholesterol" target="Patient_080">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="High Cholesterol" target="Patient_084">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="High Cholesterol" target="Patient_110">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="High Cholesterol" target="Patient_128">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="High Cholesterol" target="Patient_134">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="High Cholesterol" target="Patient_140">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="High Cholesterol" target="Patient_148">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="High Cholesterol" target="Patient_152">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="High Cholesterol" target="Patient_159">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="High Cholesterol" target="Patient_163">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="High Cholesterol" target="Patient_167">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="High Cholesterol" target="Patient_183">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="High Cholesterol" target="Patient_189">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="High Cholesterol" target="Patient_205">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="High Cholesterol" target="Patient_207">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="High Cholesterol" target="Patient_223">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="High Cholesterol" target="Patient_230">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="High Cholesterol" target="Patient_240">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="High Cholesterol" target="Patient_257">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="High Cholesterol" target="Patient_265">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="High Cholesterol" target="Patient_277">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="High Cholesterol" target="Diabetes">
+  <data key="d1">is_comorbid_with</data>
+</edge>
+<edge source="Patient_024" target="Normal HbA1c">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="Normal HbA1c" target="Patient_029">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="Normal HbA1c" target="Patient_032">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="Normal HbA1c" target="Patient_033">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="Normal HbA1c" target="Patient_066">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="Normal HbA1c" target="Patient_089">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="Normal HbA1c" target="Patient_098">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="Normal HbA1c" target="Patient_115">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="Normal HbA1c" target="Patient_141">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="Normal HbA1c" target="Patient_180">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="Normal HbA1c" target="Patient_181">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="Normal HbA1c" target="Patient_182">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="Normal HbA1c" target="Patient_184">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="Normal HbA1c" target="Patient_190">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="Normal HbA1c" target="Patient_195">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="Normal HbA1c" target="Patient_227">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="Normal HbA1c" target="Patient_236">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="Normal HbA1c" target="Patient_245">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="Normal HbA1c" target="Patient_251">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="Normal HbA1c" target="Patient_255">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="Normal HbA1c" target="Patient_270">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="Normal HbA1c" target="Patient_271">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="Normal HbA1c" target="Patient_273">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="Normal HbA1c" target="Patient_284">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="Normal HbA1c" target="Patient_293">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="Normal HbA1c" target="Patient_294">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="Patient_030" target="Chest Pain">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Chest Pain" target="Patient_040">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Chest Pain" target="Patient_041">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Chest Pain" target="Patient_042">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Chest Pain" target="Patient_047">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Chest Pain" target="Patient_060">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Chest Pain" target="Patient_061">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Chest Pain" target="Patient_072">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Chest Pain" target="Patient_075">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Chest Pain" target="Patient_077">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Chest Pain" target="Patient_108">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Chest Pain" target="Patient_110">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Chest Pain" target="Patient_112">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Chest Pain" target="Patient_133">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Chest Pain" target="Patient_141">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Chest Pain" target="Patient_147">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Chest Pain" target="Patient_151">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Chest Pain" target="Patient_153">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Chest Pain" target="Patient_155">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Chest Pain" target="Patient_177">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Chest Pain" target="Patient_193">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Chest Pain" target="Patient_235">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Chest Pain" target="Patient_243">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Chest Pain" target="Patient_268">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Chest Pain" target="Patient_275">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Chest Pain" target="Patient_292">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Patient_032" target="Peripheral Neuropathy">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="Peripheral Neuropathy" target="Patient_046">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="Peripheral Neuropathy" target="Patient_049">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="Peripheral Neuropathy" target="Patient_056">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="Peripheral Neuropathy" target="Patient_070">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="Peripheral Neuropathy" target="Patient_085">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="Peripheral Neuropathy" target="Patient_109">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="Peripheral Neuropathy" target="Patient_113">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="Peripheral Neuropathy" target="Patient_120">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="Peripheral Neuropathy" target="Patient_166">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="Peripheral Neuropathy" target="Patient_227">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="Peripheral Neuropathy" target="Patient_240">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="Peripheral Neuropathy" target="Patient_242">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="Peripheral Neuropathy" target="Patient_243">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="Peripheral Neuropathy" target="Patient_253">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="Peripheral Neuropathy" target="Patient_258">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="Peripheral Neuropathy" target="Patient_276">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="Peripheral Neuropathy" target="Patient_298">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="Peripheral Neuropathy" target="Diabetes">
+  <data key="d1">is_leading_cause_of</data>
+</edge>
+<edge source="Peripheral Neuropathy" target="Diabetic Foot Ulcers">
+  <data key="d1">leads_to</data>
+</edge>
+<edge source="Patient_038" target="Increased Thirst">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Increased Thirst" target="Patient_064">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Increased Thirst" target="Patient_098">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Increased Thirst" target="Patient_118">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Increased Thirst" target="Patient_140">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Increased Thirst" target="Patient_173">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Increased Thirst" target="Patient_201">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Increased Thirst" target="Patient_204">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Increased Thirst" target="Patient_228">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Increased Thirst" target="Patient_229">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Increased Thirst" target="Patient_240">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Increased Thirst" target="Patient_269">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Increased Thirst" target="Patient_271">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Increased Thirst" target="Patient_282">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Increased Thirst" target="Patient_285">
+  <data key="d1">has_symptom</data>
+</edge>
+<edge source="Patient_047" target="Microalbuminuria">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="Microalbuminuria" target="Patient_052">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="Microalbuminuria" target="Patient_062">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="Microalbuminuria" target="Patient_065">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="Microalbuminuria" target="Patient_071">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="Microalbuminuria" target="Patient_093">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="Microalbuminuria" target="Patient_095">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="Microalbuminuria" target="Patient_103">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="Microalbuminuria" target="Patient_106">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="Microalbuminuria" target="Patient_109">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="Microalbuminuria" target="Patient_119">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="Microalbuminuria" target="Patient_130">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="Microalbuminuria" target="Patient_150">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="Microalbuminuria" target="Patient_155">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="Microalbuminuria" target="Patient_175">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="Microalbuminuria" target="Patient_185">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="Microalbuminuria" target="Patient_192">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="Microalbuminuria" target="Patient_218">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="Microalbuminuria" target="Patient_220">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="Microalbuminuria" target="Patient_221">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="Microalbuminuria" target="Patient_225">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="Microalbuminuria" target="Patient_229">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="Microalbuminuria" target="Patient_231">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="Microalbuminuria" target="Patient_243">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="Microalbuminuria" target="Patient_246">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="Microalbuminuria" target="Patient_261">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="Microalbuminuria" target="Patient_264">
+  <data key="d1">has_lab_result</data>
+</edge>
+<edge source="Microalbuminuria" target="Diabetic Nephropathy">
+  <data key="d1">is_early_sign_of</data>
+</edge>
+<edge source="Patient_058" target="Metabolic Syndrome">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="Metabolic Syndrome" target="Patient_066">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="Metabolic Syndrome" target="Patient_073">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="Metabolic Syndrome" target="Patient_074">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="Metabolic Syndrome" target="Patient_136">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="Metabolic Syndrome" target="Patient_137">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="Metabolic Syndrome" target="Patient_146">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="Metabolic Syndrome" target="Patient_188">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="Metabolic Syndrome" target="Patient_201">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="Metabolic Syndrome" target="Patient_212">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="Metabolic Syndrome" target="Patient_223">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="Metabolic Syndrome" target="Patient_277">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="Metabolic Syndrome" target="Patient_280">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="Metabolic Syndrome" target="Patient_284">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="Metabolic Syndrome" target="Patient_292">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="Metabolic Syndrome" target="Patient_297">
+  <data key="d1">diagnosed_with</data>
+</edge>
+<edge source="Atherosclerosis" target="Diabetes">
+  <data key="d1">is_accelerated_by</data>
+</edge>
+<edge source="Diabetes" target="Myocardial Infarction">
+  <data key="d1">is_more_common_in_patients_with</data>
+</edge>
+<edge source="Diabetes" target="Stroke">
+  <data key="d1">is_more_common_in_patients_with</data>
+</edge>
+<edge source="Diabetes" target="Diabetic Nephropathy">
+  <data key="d1">is_complication_of</data>
+</edge>
+<edge source="Diabetes" target="Cognitive Decline">
+  <data key="d1">increases_risk_of</data>
+</edge>
+<edge source="Diabetes" target="Annual Eye Exam">
+  <data key="d1">is_recommended_for</data>
+</edge>
+<edge source="Diabetes" target="Fasting Blood Glucose">
+  <data key="d1">diagnoses</data>
+</edge>
+<edge source="Diabetes" target="Oral Glucose Tolerance Test">
+  <data key="d1">diagnoses</data>
+</edge>
+<edge source="Hyperglycemia" target="Blood Vessels">
+  <data key="d1">causes_endothelial_dysfunction</data>
+</edge>
+<edge source="Autonomic Neuropathy" target="Gastroparesis">
+  <data key="d1">can_cause</data>
+</edge>
+<edge source="Cushing's Syndrome" target="Secondary Diabetes">
+  <data key="d1">can_cause</data>
+</edge>
+<edge source="Hemochromatosis" target="Diabetes Mellitus">
+  <data key="d1">can_cause</data>
+</edge>
+<edge source="HbA1c" target="Past 3 Months">
+  <data key="d1">measures_average_blood_glucose</data>
+</edge>
+<edge source="C-Peptide" target="Insulin Production">
+  <data key="d1">assesses</data>
+</edge>
+</graph></graphml>

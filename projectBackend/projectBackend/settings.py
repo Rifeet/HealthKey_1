@@ -50,6 +50,8 @@ INSTALLED_APPS = [
     'api',  # Your API app
     'core',  # Your core app
     'create_user',  # Your user creation app
+    'ai_engine',  # Your AI engine app
+    
     'debug_toolbar',  # Django Debug Toolbar
     'authentication',
     'corsheaders',  # CORS headers for cross-origin requests

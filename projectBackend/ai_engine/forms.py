@@ -1,0 +1,20 @@
+from django import forms
+
+class PatientForm(forms.Form):
+    patient_id = forms.CharField(label="Patient ID")
+    age = forms.IntegerField(label="Age")
+    gender = forms.ChoiceField(choices=[("male", "Male"), ("female", "Female")])
+    BMI = forms.FloatField(label="BMI")
+    smoking = forms.ChoiceField(choices=[("yes", "Yes"), ("no", "No")])
+    physical_activity = forms.ChoiceField(choices=[("low", "Low"), ("medium", "Medium"), ("high", "High")])
+    glucose = forms.FloatField(label="Glucose")
+    HbA1c = forms.FloatField(label="HbA1c")
+    cholesterol = forms.FloatField(label="Cholesterol")
+    blood_pressure_systolic = forms.FloatField(label="Blood Pressure (Systolic)")
+    blood_pressure_diastolic = forms.FloatField(label="Blood Pressure (Diastolic)")
+    creatinine = forms.FloatField(label="Creatinine")
+    microalbuminuria = forms.ChoiceField(choices=[("yes", "Yes"), ("no", "No")])
+    c_peptide = forms.FloatField(label="C-Peptide")
+    diabetes_in_family = forms.ChoiceField(choices=[("yes", "Yes"), ("no", "No")])
+    previous_diagnoses = forms.CharField(label="Previous Diagnoses", required=False)
+    drug_history = forms.ChoiceField(choices=[("yes", "Yes"), ("no", "No")])

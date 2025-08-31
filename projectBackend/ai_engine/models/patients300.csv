@@ -1,0 +1,301 @@
+patient_id,age,gender,BMI,smoking,physical_activity,glucose,HbA1c,cholesterol,blood_pressure_systolic,blood_pressure_diastolic,creatinine,microalbuminuria,c_peptide,diabetes_in_family,previous_diagnoses,drug_history,label
+1,69,Female,24.6,Yes,Low,99.9,5.0,168.5,118,76,0.94,Normal,2.95,No,None,None,1
+2,32,Female,28.2,No,High,94.6,5.0,190.1,109,64,0.98,Elevated,2.74,No,Gestational Diabetes,None,1
+3,78,Female,30.5,Yes,Low,100.5,5.4,200,127,81,1.28,Normal,1.7,No,Obesity,None,1
+4,38,Female,24.5,No,High,92.3,4.5,144.6,106,62,1.25,Normal,2.64,No,None,None,0
+5,41,Male,24.6,No,Moderate,98.0,4.8,220,127,63,1.21,Normal,2.0,No,None,None,0
+6,20,Male,28.0,Yes,High,70.0,4.6,120,103,66,0.81,High,3.0,No,None,None,0
+7,39,Female,19.5,No,Moderate,88.0,4.6,200,104,60,0.87,Normal,1.2,No,None,None,0
+8,70,Male,21.7,No,Moderate,104.3,4.9,225.0,110,82,1.36,Normal,2.76,No,None,None,1
+9,19,Male,23.4,Yes,Moderate,71.8,4.5,149.4,90,74,0.81,Normal,2.69,No,None,None,0
+10,47,Female,25.9,No,Moderate,109.2,5.6,225.3,112,68,0.94,Normal,1.42,No,None,None,0
+11,55,Male,29.1,No,Low,102.1,4.5,180.0,122,80,0.75,Normal,2.6,No,None,None,0
+12,19,Female,32.0,Yes,Low,98.0,5.3,180,124,75,0.67,Normal,2.0,No,Obesity,None,1
+13,81,Male,33.0,No,Low,107.3,4.9,208.3,152,93,1.28,High,1.86,No,"Obesity, Hypertension",Antihypertensives,1
+14,77,Female,27.9,No,Low,106.5,5.0,194.5,125,84,1.36,Normal,1.51,No,None,None,1
+15,38,Female,26.9,No,High,92.6,4.5,188.3,114,77,0.74,Normal,1.57,No,None,None,0
+16,50,Female,22.0,No,Low,93.8,4.5,208.8,116,74,1.08,Normal,3.23,Yes,None,None,1
+17,75,Female,26.2,No,High,89.2,4.9,130.0,144,72,1.02,Normal,2.0,No,Hypertension,Antihypertensives,1
+18,39,Male,25.6,No,Low,92.2,4.9,218.6,126,77,0.95,Elevated,2.47,No,None,None,0
+19,66,Female,29.0,No,Low,95.0,5.0,150,124,89,1.4,Normal,1.6,Yes,Obesity,None,1
+20,76,Female,24.6,No,Moderate,95.6,4.7,229.0,123,74,1.37,Normal,1.53,No,None,None,0
+21,59,Female,32.3,No,Moderate,93.5,4.9,223.3,120,82,0.99,Normal,2.65,Yes,Obesity,None,1
+22,77,Male,38.5,No,Moderate,106.3,4.5,165.8,150,97,1.12,Elevated,1.19,No,"Obesity, Hypertension",Antihypertensives,1
+23,32,Female,26.0,Yes,Moderate,100.0,4.9,165,112,67,0.86,Normal,1.8,Yes,None,None,1
+24,79,Male,32.1,No,Moderate,117.3,5.8,166.3,154,96,1.03,Normal,2.02,No,"Obesity, Hypertension",Antihypertensives,1
+25,79,Female,32.2,Yes,Low,112.5,4.6,193.1,143,106,1.22,High,2.07,No,"Obesity, Hypertension",Antihypertensives,1
+26,64,Male,25.9,Yes,High,84.9,4.5,167.8,123,72,1.18,Elevated,1.89,No,None,None,0
+27,79,Male,32.7,Yes,High,103.9,4.5,207.9,146,77,1.05,Elevated,2.24,Yes,"Obesity, Hypertension",Antihypertensives,1
+28,68,Female,29.1,No,Moderate,112.7,5.5,233.3,125,84,1.03,High,2.42,No,None,None,0
+29,72,Male,28.5,No,Low,102.0,5.2,220,157,89,1.32,Normal,2.3,No,Hypertension,Antihypertensives,1
+30,81,Female,25.0,No,Moderate,115.0,4.9,180,119,81,1.23,Normal,1.5,No,None,None,0
+31,20,Female,27.0,Yes,Low,93.0,5.0,160,103,77,0.85,Normal,1.8,No,None,None,0
+32,68,Female,31.7,No,Low,105.5,4.7,143.5,157,73,1.21,Elevated,2.72,No,"Obesity, Hypertension",Antihypertensives,1
+33,24,Male,34.3,No,Low,94.8,4.5,147.8,114,78,1.0,Normal,2.54,No,Obesity,None,1
+34,38,Male,31.8,No,Moderate,99.1,4.9,207.9,117,70,1.07,Normal,1.18,Yes,Obesity,None,1
+35,56,Female,39.6,No,High,109.2,5.7,221.5,138,100,0.77,Normal,2.21,Yes,"Obesity, Hypertension",Antihypertensives,1
+36,35,Female,23.2,No,Moderate,93.9,4.5,140.5,102,83,0.66,Normal,0.81,No,None,None,0
+37,21,Male,31.4,No,Moderate,103.4,5.0,152.7,122,63,0.69,Normal,2.03,No,Obesity,None,1
+38,77,Female,29.3,No,Moderate,94.8,4.9,197.7,117,80,1.08,Normal,3.14,No,None,None,0
+39,31,Female,37.9,Yes,Low,90.4,4.9,183.9,139,85,0.83,Normal,1.43,Yes,Obesity,None,1
+40,26,Female,23.0,Yes,Low,66.4,4.5,148.7,90,61,0.75,Normal,1.5,No,None,None,0
+41,70,Male,24.3,No,High,100.2,4.7,192.7,124,78,1.06,Normal,2.46,Yes,None,None,1
+42,19,Male,24.0,Yes,Low,73.6,4.5,155.3,92,63,0.81,Normal,1.07,No,None,None,0
+43,77,Male,18.3,No,High,67.9,4.5,183.1,128,60,1.25,Elevated,1.62,Yes,None,None,1
+44,61,Female,25.5,No,Moderate,97.0,4.9,200,108,77,1.14,Normal,2.2,Yes,None,None,1
+45,25,Female,23.2,No,Moderate,109.8,4.5,172.7,103,60,0.79,Normal,1.62,No,None,None,0
+46,64,Female,29.0,No,Moderate,99.6,5.0,178.9,151,76,1.11,High,1.86,No,Hypertension,Antihypertensives,1
+47,52,Male,30.0,No,Moderate,105.0,5.4,180,112,90,0.71,Normal,2.3,No,Obesity,None,0
+48,53,Female,38.1,No,High,109.2,4.5,168.8,139,74,0.89,Normal,2.25,No,Obesity,None,1
+49,67,Female,35.3,No,High,106.7,4.6,167.4,135,93,1.16,Normal,2.16,No,"Obesity, Hypertension",Antihypertensives,1
+50,21,Female,24.0,No,Moderate,95.0,5.1,165,102,61,1.01,Elevated,1.8,Yes,None,None,1
+51,19,Female,22.5,No,Low,79.9,5.2,217.5,94,60,0.54,Normal,2.22,No,None,None,0
+52,23,Male,29.5,No,Moderate,94.6,4.7,188.3,100,75,0.83,Normal,1.93,No,None,None,0
+53,71,Male,19.7,No,High,93.1,4.5,171.6,126,78,1.32,Normal,2.27,No,None,None,0
+54,21,Female,35.0,No,Low,95.5,4.8,190,133,78,0.94,Normal,1.7,No,Obesity,None,1
+55,71,Male,36.0,No,Moderate,119.3,6.2,185.5,143,96,1.82,Elevated,1.89,No,"Obesity, Hypertension",Antihypertensives,1
+56,80,Male,27.9,No,Moderate,99.7,4.5,235.2,146,82,1.43,Elevated,1.41,No,Hypertension,Antihypertensives,1
+57,35,Female,18.4,No,Moderate,73.6,4.5,188.6,90,60,0.7,Normal,1.98,No,None,None,0
+58,61,Female,33.7,No,Low,110.0,4.9,187.3,126,75,1.11,Elevated,1.51,No,Obesity,None,1
+59,51,Male,28.1,Yes,Moderate,86.9,4.5,198.9,126,69,0.54,Normal,1.33,Yes,None,None,1
+60,79,Female,34.8,Yes,High,109.9,5.2,137.4,163,113,1.05,Elevated,2.16,No,"Obesity, Hypertension",Antihypertensives,1
+61,31,Male,19.0,No,Low,80.9,5.0,141.7,99,72,0.73,Elevated,2.13,Yes,None,None,1
+62,65,Female,24.6,No,Low,105.4,5.2,156.7,121,66,1.43,Normal,2.47,No,None,None,0
+63,32,Male,27.0,No,High,95.6,4.6,165.3,108,60,0.79,Normal,1.74,No,None,None,0
+64,79,Female,28.5,Yes,Low,101.7,4.7,251.5,126,88,1.06,Normal,2.24,No,None,None,0
+65,57,Male,25.6,Yes,High,102.3,4.5,240.4,127,80,0.77,Elevated,2.33,No,None,None,0
+66,70,Male,33.0,Yes,Moderate,115.0,5.8,210,150,90,1.52,Elevated,2.2,Yes,Obesity,Hypertension,1
+67,41,Male,21.7,No,Low,91.8,4.5,195.5,101,66,0.84,Normal,1.5,No,None,None,0
+68,43,Female,26.3,No,High,92.2,4.5,112.5,109,71,1.27,Elevated,2.09,No,None,None,0
+69,77,Male,30.5,No,Moderate,90.9,6.1,182.2,143,88,1.39,Normal,2.22,No,"Obesity, Hypertension",Antihypertensives,1
+70,58,Male,32.8,No,Moderate,92.4,4.7,165.4,128,82,1.0,Elevated,2.0,Yes,Obesity,None,1
+71,46,Female,30.6,Yes,Low,94.8,4.5,164.4,121,60,0.97,High,0.75,No,Obesity,None,1
+72,32,Female,21.4,No,Moderate,78.0,4.5,171.0,121,63,0.98,Normal,2.1,No,None,None,0
+73,62,Male,22.1,No,Low,89.0,5.0,176.8,116,67,0.98,Normal,3.33,Yes,None,None,1
+74,82,Male,34.3,Yes,Low,110.1,5.2,141.6,146,91,1.1,Normal,1.78,Yes,"Obesity, Hypertension",Antihypertensives,1
+75,26,Female,28.7,No,High,96.9,4.5,180.4,101,93,1.07,Normal,1.56,Yes,"Hypertension, PCOS",Antihypertensives,1
+76,18,Female,23.3,No,Low,82.8,4.7,136.8,102,65,0.89,Normal,2.22,No,None,None,0
+77,25,Female,34.0,No,Moderate,100.0,4.9,180,114,71,0.62,Normal,2.1,No,Obesity,Gestational Diabetes,1
+78,80,Female,29.0,No,Low,105.0,5.7,250,134,93,1.18,Elevated,2.6,No,Hypertension,Antihypertensives,1
+79,28,Female,32.0,No,Moderate,85.0,4.8,150,128,77,1.24,Normal,1.25,Yes,Obesity,None,1
+80,25,Male,27.3,Yes,Low,80.4,4.5,100.0,119,71,1.15,Normal,2.44,No,None,None,0
+81,52,Female,38.0,No,High,106.0,5.7,165,133,90,0.89,Elevated,2.3,Yes,Obesity,Hypertension,1
+82,52,Male,36.6,Yes,Moderate,94.2,4.7,219.0,116,99,1.09,High,1.91,Yes,"Obesity, Hypertension",Antihypertensives,1
+83,50,Male,25.8,No,Low,98.9,5.2,243.8,127,65,0.83,Normal,2.2,No,None,None,0
+84,22,Male,31.9,No,Low,109.9,5.4,134.1,103,74,0.56,High,2.62,No,Obesity,None,1
+85,58,Female,32.9,No,Low,115.3,4.9,203.9,141,74,0.72,Normal,2.52,No,"Obesity, Hypertension",Antihypertensives,1
+86,45,Male,33.8,No,Moderate,99.5,4.5,168.5,107,83,1.21,Elevated,1.31,Yes,Obesity,None,1
+87,24,Male,22.2,Yes,Low,98.3,5.3,168.8,105,60,0.85,Normal,2.49,No,None,None,0
+88,29,Female,30.4,Yes,High,95.8,4.5,238.8,99,68,0.85,Normal,1.96,No,"Obesity, Gestational Diabetes",None,1
+89,51,Male,34.1,Yes,Moderate,99.7,4.6,140.4,137,78,0.84,Normal,2.04,No,Obesity,None,1
+90,50,Male,18.2,Yes,Low,77.7,4.5,192.6,106,75,1.28,Normal,2.04,No,None,None,0
+91,65,Female,22.7,No,Moderate,89.2,4.7,206.5,112,83,1.42,Normal,1.91,No,None,None,0
+92,40,Male,16.8,No,Moderate,76.3,5.1,212.6,94,60,1.34,Normal,2.72,Yes,None,None,1
+93,79,Male,28.4,Yes,Low,103.5,4.5,202.4,145,85,1.14,Elevated,1.95,No,Hypertension,Antihypertensives,1
+94,54,Male,33.0,No,Low,104.0,5.0,196.2,132,75,0.96,Elevated,1.33,Yes,Obesity,None,1
+95,61,Female,36.2,No,Low,107.6,5.8,178.8,145,75,0.68,Normal,1.76,Yes,"Obesity, Hypertension",Antihypertensives,1
+96,52,Female,30.5,No,Moderate,103.4,4.9,194.1,145,76,1.2,Normal,2.11,No,"Obesity, Hypertension",Antihypertensives,1
+97,82,Female,35.5,No,Moderate,110.0,5.6,190,136,89,0.91,Normal,2.6,No,Obesity,None,1
+98,64,Male,22.7,Yes,Moderate,101.6,4.5,210.6,137,95,1.29,Normal,2.36,No,Hypertension,Antihypertensives,1
+99,20,Male,18.5,No,High,63.3,4.5,143.9,90,62,0.68,Elevated,1.49,Yes,None,None,1
+100,18,Female,26.7,No,High,62.1,4.5,165.3,90,60,0.78,Elevated,3.49,No,None,None,0
+101,22,Male,28.9,No,Moderate,100.4,5.3,170.1,92,63,0.73,Normal,2.16,No,None,None,0
+102,31,Male,26.8,Yes,High,76.7,4.7,194.3,105,77,0.78,Normal,2.77,No,None,None,0
+103,44,Female,16.7,No,Low,78.5,5.4,180.5,109,81,0.79,Normal,1.91,No,None,None,0
+104,26,Female,26.6,Yes,Low,77.4,4.5,119.8,103,60,0.79,Normal,2.32,No,None,None,0
+105,32,Male,20.5,Yes,Low,65.0,4.5,213.9,114,60,1.07,Elevated,2.5,No,None,None,0
+106,59,Male,32.9,No,Low,108.7,5.2,162.3,119,97,0.68,Normal,2.73,No,"Obesity, Hypertension",Antihypertensives,1
+107,68,Male,30.5,No,Moderate,109.8,5.0,174.4,135,86,1.21,Normal,2.63,Yes,Obesity,None,1
+108,80,Female,24.6,No,High,91.8,4.7,167.1,121,75,1.34,Normal,2.52,No,None,None,0
+109,69,Female,25.2,Yes,Low,70.1,4.5,235.7,131,83,0.93,Normal,1.81,No,None,None,0
+110,21,Female,21.7,No,Low,76.8,4.5,106.4,103,60,0.76,High,1.66,No,None,None,0
+111,40,Female,26.7,No,Moderate,95.9,5.4,274.1,108,71,0.85,Normal,2.2,No,None,None,0
+112,32,Male,31.8,Yes,High,81.7,4.5,192.7,90,76,1.14,Normal,2.56,No,Obesity,None,1
+113,60,Female,25.0,No,Low,95.8,5.3,196.7,124,83,0.94,Normal,1.87,No,None,None,0
+114,46,Female,29.5,No,Moderate,96.5,5.4,181.4,125,67,0.79,Normal,2.64,No,None,None,0
+115,53,Female,26.2,No,Low,99.8,4.8,195.1,124,76,1.0,Normal,2.87,Yes,None,None,1
+116,30,Female,23.0,No,Low,86.8,4.5,190.6,113,60,0.68,Normal,1.45,No,None,None,0
+117,49,Female,26.5,No,High,83.8,4.5,188.9,107,76,1.04,Normal,1.5,Yes,None,None,1
+118,76,Male,23.3,No,High,107.1,5.7,199.7,136,72,1.17,Normal,1.92,Yes,None,None,1
+119,45,Male,24.2,Yes,Low,88.5,4.5,185.2,124,68,0.84,Normal,2.18,No,None,None,0
+120,83,Female,24.1,No,High,97.2,4.5,180.6,117,74,0.99,Normal,1.69,No,None,None,0
+121,59,Male,38.1,No,Moderate,100.2,4.6,185.0,144,91,0.72,Normal,2.81,Yes,"Obesity, Hypertension",Antihypertensives,1
+122,62,Female,27.8,No,High,93.3,5.0,170.2,122,86,1.3,Normal,2.25,No,None,None,0
+123,79,Female,23.9,No,Moderate,87.7,4.7,233.5,131,79,1.4,Normal,2.02,No,None,None,0
+124,74,Male,30.7,No,Moderate,101.9,4.8,214.8,142,85,0.98,Elevated,1.14,Yes,"Obesity, Hypertension",Antihypertensives,1
+125,23,Male,26.4,Yes,Moderate,105.4,4.8,100.0,97,60,0.99,Normal,1.21,No,None,None,0
+126,45,Female,25.9,Yes,Moderate,78.4,4.5,202.2,108,70,0.5,Normal,2.17,No,None,None,0
+127,45,Female,30.1,No,Low,80.9,4.5,188.3,121,75,0.78,Normal,0.72,No,Obesity,None,1
+128,61,Female,31.5,Yes,Low,116.7,6.2,189.9,121,102,1.09,Normal,2.61,Yes,"Obesity, Hypertension",Antihypertensives,1
+129,47,Male,24.3,No,Low,88.5,4.5,171.8,102,63,0.72,Normal,1.91,No,None,None,0
+130,79,Female,27.9,No,Moderate,94.6,5.3,233.2,145,96,0.87,Normal,3.95,Yes,Hypertension,Antihypertensives,1
+131,79,Female,25.5,No,Low,108.9,5.9,227.9,123,90,1.02,Normal,3.38,No,Hypertension,Antihypertensives,1
+132,18,Female,15.5,No,Moderate,68.1,4.5,145.8,90,60,0.96,Normal,1.89,No,None,None,0
+133,44,Male,19.4,No,High,102.4,4.7,179.2,109,81,0.86,Normal,1.94,No,None,None,0
+134,79,Female,37.5,No,Low,119.6,5.7,170.4,135,95,0.85,Elevated,2.6,Yes,"Obesity, Hypertension",Antihypertensives,1
+135,20,Female,35.2,No,Moderate,93.4,4.6,128.6,107,75,0.5,Normal,3.02,No,Obesity,None,1
+136,44,Male,25.8,No,Moderate,113.3,4.8,163.2,125,71,0.78,Normal,1.02,No,None,None,0
+137,26,Female,29.9,No,High,87.0,4.6,183.9,99,79,0.99,Normal,0.93,No,None,None,0
+138,79,Female,30.8,No,Low,112.1,4.6,228.1,137,95,0.57,Normal,1.63,Yes,"Obesity, Hypertension",Antihypertensives,1
+139,54,Male,44.3,No,Moderate,119.0,6.1,202.4,152,85,0.8,Elevated,2.35,No,"Obesity, Hypertension",Antihypertensives,1
+140,68,Female,34.1,No,High,119.5,5.3,200.8,148,75,0.98,Elevated,2.3,No,"Obesity, Hypertension",Antihypertensives,1
+141,61,Male,28.8,No,High,114.3,5.4,191.0,126,78,1.57,Elevated,2.64,No,None,None,0
+142,41,Male,22.2,No,Moderate,87.2,4.5,161.3,100,62,0.82,Normal,1.28,No,None,None,0
+143,76,Female,20.9,No,Moderate,84.8,4.5,211.0,140,77,1.46,High,0.61,No,None,None,0
+144,49,Female,28.0,No,Moderate,100.0,5.1,208.5,137,85,0.93,Normal,2.51,No,None,None,0
+145,69,Female,26.3,No,High,90.6,4.5,202.1,139,76,0.85,Normal,1.5,Yes,None,None,1
+146,79,Female,22.0,No,Moderate,114.3,5.7,235.2,130,79,1.58,Normal,0.79,Yes,None,None,1
+147,75,Male,25.5,No,Low,98.5,4.6,210,124,82,1.18,Normal,2.0,No,None,None,0
+148,69,Female,23.0,No,High,90.5,4.7,185,116,84,1.15,Normal,2.1,No,None,None,0
+149,29,Male,35.4,Yes,Moderate,102.2,5.9,206.6,124,60,1.69,Normal,1.93,Yes,Obesity,None,1
+150,56,Female,33.0,No,Moderate,92.0,4.8,185,136,77,0.5,Normal,1.7,No,Obesity,None,1
+151,19,Female,27.0,No,Low,78.4,4.5,143.0,114,67,1.24,Elevated,1.9,No,None,None,0
+152,20,Female,34.4,Yes,Moderate,109.3,5.4,165.1,119,81,0.84,Elevated,1.78,Yes,Obesity,None,1
+153,73,Male,29.7,No,Low,95.7,4.8,174.2,122,80,1.3,Normal,1.19,No,None,None,0
+154,76,Female,23.0,Yes,Moderate,84.3,4.5,177.7,139,64,1.21,Normal,1.57,Yes,None,None,1
+155,19,Female,34.6,No,Low,102.7,5.2,165.2,102,76,0.82,Normal,2.31,Yes,Obesity,None,1
+156,19,Female,29.7,No,Moderate,103.3,5.3,145.7,101,62,0.79,Normal,2.19,Yes,None,None,1
+157,71,Female,22.5,Yes,High,100.3,5.4,171.3,127,68,1.39,Normal,2.1,No,None,None,0
+158,18,Male,26.0,No,Low,96.8,4.9,112.2,118,60,0.6,Normal,1.4,Yes,None,None,1
+159,36,Female,22.6,No,High,78.8,4.5,169.4,135,65,1.05,Normal,1.89,Yes,PCOS,None,1
+160,19,Male,20.1,No,Moderate,65.7,4.5,169.5,96,60,0.82,Normal,0.69,No,None,None,0
+161,70,Male,34.4,Yes,High,122.3,6.5,155.5,140,69,1.06,High,2.11,No,"Obesity, Hypertension","Insulin, Antihypertensives",1
+162,61,Male,38.7,No,Moderate,107.4,5.0,210.3,149,94,1.2,Elevated,2.86,Yes,"Obesity, Hypertension",Antihypertensives,1
+163,49,Male,20.0,No,Moderate,83.3,4.5,212.6,117,79,1.15,Elevated,1.12,No,None,None,0
+164,49,Male,29.8,No,Moderate,110.9,5.7,136.3,119,82,0.79,Normal,1.65,Yes,None,None,0
+165,72,Male,25.6,No,High,102.6,4.9,158.1,148,71,1.15,Normal,2.2,No,Hypertension,Antihypertensives,1
+166,73,Female,26.6,No,Moderate,103.1,4.5,173.4,134,80,1.22,Normal,2.75,No,None,None,0
+167,34,Male,24.0,No,Low,109.3,5.6,148.8,110,67,1.05,Normal,1.73,No,None,None,0
+168,55,Male,25.0,No,Moderate,86.6,4.5,212.4,126,79,1.04,Normal,1.58,No,None,None,0
+169,41,Male,27.2,No,High,102.2,4.9,159.7,118,77,1.27,Normal,0.82,No,None,None,0
+170,28,Female,22.8,Yes,Moderate,85.6,4.5,166.1,108,60,0.86,Normal,2.06,Yes,None,None,1
+171,33,Female,28.4,No,Moderate,95.3,4.8,116.4,105,71,1.03,Normal,3.23,No,None,None,0
+172,76,Male,28.2,No,Moderate,116.3,5.7,217.1,131,87,1.15,Normal,2.17,Yes,None,None,1
+173,20,Female,25.8,No,High,92.0,4.5,117.8,90,76,1.16,Normal,1.99,No,None,None,0
+174,37,Male,22.5,No,Low,91.7,4.8,180.3,109,73,0.76,Normal,2.19,No,None,None,0
+175,76,Male,25.3,No,Moderate,108.3,5.0,206.3,140,87,1.42,Normal,1.99,No,None,None,0
+176,53,Female,32.5,No,Low,97.0,5.0,215,134,81,0.86,Normal,1.5,No,Obesity,None,1
+177,36,Male,29.0,Yes,Low,86.5,4.7,140,131,84,0.89,Normal,2.0,No,None,None,0
+178,84,Female,23.0,No,Low,87.0,4.6,115,134,85,1.25,High,2.0,No,None,None,0
+179,36,Female,27.5,No,Low,72.5,4.5,183.5,118,64,0.95,Normal,2.01,No,None,None,0
+180,37,Male,30.8,Yes,Moderate,116.9,5.1,232.5,106,85,0.88,Normal,1.41,No,Obesity,None,1
+181,69,Male,21.1,No,Low,80.0,4.6,231.7,118,81,1.37,Normal,2.78,No,None,None,0
+182,50,Female,29.7,No,Moderate,95.4,4.9,191.3,130,73,1.22,Normal,2.4,No,None,None,0
+183,57,Male,24.0,Yes,Low,89.4,5.4,173.8,127,70,1.1,Normal,1.67,No,None,None,0
+184,56,Male,32.9,No,Low,105.7,4.9,212.2,128,83,1.07,Normal,2.6,Yes,Obesity,None,1
+185,18,Male,23.2,No,Low,91.6,4.5,139.8,93,66,0.81,Normal,1.7,No,None,None,0
+186,28,Female,18.0,No,Low,87.8,4.5,188.3,90,62,0.72,Normal,1.53,No,None,None,0
+187,74,Female,21.3,Yes,Moderate,86.6,4.5,212.2,121,80,1.58,Normal,1.54,Yes,None,None,1
+188,67,Male,29.5,No,Moderate,99.1,5.2,225.3,142,95,1.25,Elevated,0.94,No,Hypertension,Antihypertensives,1
+189,40,Female,28.3,No,Moderate,96.8,4.5,262.8,121,81,1.19,Normal,2.28,No,None,None,0
+190,48,Female,22.5,No,Moderate,86.1,4.5,195.8,116,72,0.78,Elevated,0.9,No,None,None,0
+191,59,Female,33.2,No,Low,119.7,5.0,174.2,134,90,0.85,Normal,1.26,No,Obesity,None,1
+192,24,Female,18.7,Yes,High,84.1,4.8,156.2,91,60,0.57,Normal,0.75,No,None,None,0
+193,33,Female,26.7,No,Moderate,98.0,5.6,123.4,102,72,0.82,Normal,1.95,No,None,None,0
+194,77,Male,24.6,Yes,Moderate,103.6,4.9,177.7,139,95,1.4,Normal,1.91,No,Hypertension,Antihypertensives,1
+195,19,Male,23.7,Yes,Low,96.0,4.6,157.2,100,61,0.81,High,1.8,No,None,None,0
+196,18,Male,27.2,No,Low,90.1,4.5,153.3,105,60,1.03,Normal,1.37,No,None,None,0
+197,65,Female,25.7,No,Low,82.9,4.8,197.1,121,73,1.27,Elevated,1.3,Yes,None,None,1
+198,29,Female,25.1,No,Low,91.9,4.5,149.8,90,60,0.96,Elevated,2.28,Yes,None,None,1
+199,54,Male,32.2,No,Moderate,94.9,4.8,220.6,140,74,0.67,Normal,1.67,No,"Obesity, Hypertension",Antihypertensives,1
+200,49,Female,24.1,No,Moderate,85.5,4.8,184.5,109,69,0.92,Normal,2.19,No,None,None,0
+201,26,Male,31.2,No,Moderate,100.5,5.1,172.7,102,60,0.5,Normal,1.47,No,Obesity,None,1
+202,36,Male,21.4,No,Moderate,97.2,4.8,168.2,109,66,0.86,High,2.11,Yes,None,None,1
+203,65,Male,30.4,No,High,101.7,5.4,182.2,129,89,0.69,Normal,2.78,No,Obesity,None,1
+204,20,Female,34.2,No,Moderate,100.1,4.5,194.8,122,64,1.14,Normal,2.35,No,Obesity,None,1
+205,37,Female,15.0,Yes,High,94.4,5.0,137.5,99,73,1.06,Normal,1.75,No,None,None,0
+206,41,Male,23.0,No,Low,90.2,4.5,160.8,114,73,0.99,Normal,2.15,Yes,None,None,1
+207,71,Male,31.3,No,Low,129.7,4.9,186.4,124,93,1.61,Normal,1.86,No,"Obesity, Hypertension",Antihypertensives,1
+208,50,Male,26.0,Yes,Low,98.8,5.1,144.6,130,69,0.71,Normal,2.0,No,None,None,0
+209,41,Male,28.9,Yes,Moderate,77.2,4.8,155.9,119,80,1.25,Elevated,1.8,No,None,None,0
+210,53,Female,26.0,No,High,101.3,4.8,157.2,116,66,1.09,Elevated,1.9,No,None,None,0
+211,55,Female,30.0,No,Low,102.8,5.4,213.7,128,86,0.85,Elevated,2.13,No,None,None,0
+212,42,Male,26.2,No,High,104.8,5.8,173.9,95,73,1.13,Normal,1.4,No,None,None,0
+213,35,Male,32.8,No,Low,105.1,5.7,183.3,123,79,0.68,Normal,1.39,No,Obesity,None,1
+214,83,Female,29.5,Yes,High,102.7,5.7,212.0,132,77,1.01,Normal,1.17,Yes,None,None,1
+215,71,Female,30.9,No,Low,91.0,4.9,191.4,124,77,1.08,Normal,1.04,Yes,Obesity,None,1
+216,52,Male,26.2,No,Low,91.7,4.6,197.7,104,79,0.79,Normal,1.27,No,None,None,0
+217,78,Male,26.0,No,Moderate,92.0,4.6,190,145,75,1.11,Elevated,2.0,No,Hypertension,Antihypertensives,1
+218,58,Male,25.0,No,Low,88.5,4.6,195,115,79,1.14,Normal,1.5,No,None,None,0
+219,50,Female,28.5,No,Low,100.0,4.7,165,137,65,0.85,High,2.0,No,None,None,0
+220,50,Female,24.9,No,Low,108.6,6.2,111.8,110,80,0.97,Normal,2.02,No,None,None,0
+221,31,Female,28.4,No,High,96.3,4.6,156.5,93,60,0.79,Normal,0.82,Yes,PCOS,None,1
+222,38,Male,37.4,No,Moderate,92.5,4.6,221.7,116,84,0.54,Normal,2.39,No,Obesity,None,1
+223,65,Male,32.4,No,Low,108.4,5.4,220.3,149,88,1.32,Normal,2.49,Yes,"Obesity, Hypertension",Antihypertensives,1
+224,37,Female,25.4,Yes,Moderate,101.8,4.9,207.5,107,64,0.52,Normal,1.4,No,None,None,0
+225,25,Female,33.0,Yes,Moderate,90.5,5.4,209.6,108,77,0.89,Elevated,2.25,No,Obesity,None,1
+226,24,Male,25.0,Yes,Low,85.4,4.5,174.7,102,67,0.63,Elevated,1.49,Yes,None,None,1
+227,84,Female,17.5,No,Moderate,89.9,4.6,207.9,130,73,1.67,Elevated,2.06,No,None,None,0
+228,34,Female,22.0,No,Low,77.3,4.5,158.5,113,60,1.08,High,1.24,No,None,None,0
+229,50,Male,17.6,No,Low,89.7,4.5,175.5,119,60,0.92,Normal,0.92,Yes,None,None,1
+230,65,Female,26.3,No,Moderate,95.3,4.5,211.0,123,81,1.57,Normal,1.77,No,None,None,0
+231,76,Male,30.1,No,Low,107.6,5.1,234.1,126,72,1.04,Normal,1.93,Yes,Obesity,None,1
+232,39,Male,35.4,Yes,Moderate,93.4,4.5,175.3,121,79,1.01,Normal,1.76,Yes,Obesity,None,1
+233,47,Male,28.6,No,Moderate,91.4,4.5,170.0,122,73,0.94,Normal,1.29,No,None,None,0
+234,55,Male,27.0,No,Low,102.6,4.5,187.5,112,81,0.95,Normal,1.76,No,None,None,0
+235,68,Male,35.8,No,Moderate,104.8,5.0,212.0,133,85,1.46,Normal,2.16,Yes,Obesity,None,1
+236,71,Male,18.4,No,Low,105.6,4.5,152.2,122,71,1.13,Normal,1.97,No,None,None,0
+237,25,Male,28.2,No,High,86.8,4.8,100.0,105,74,0.96,Normal,2.11,Yes,None,None,1
+238,44,Female,30.9,No,Moderate,100.1,4.9,165.5,122,79,0.57,Normal,1.6,Yes,Obesity,None,1
+239,44,Male,19.6,Yes,High,93.7,4.5,130.4,97,69,0.71,Normal,2.7,No,None,None,0
+240,38,Male,32.7,Yes,Moderate,84.7,4.5,163.8,118,79,0.88,Normal,1.29,No,Obesity,None,1
+241,47,Female,28.7,No,Low,78.2,4.5,179.1,110,63,0.92,Normal,2.29,No,None,None,0
+242,45,Female,24.9,No,Moderate,75.7,4.5,168.9,122,77,0.67,Normal,2.71,Yes,None,None,1
+243,81,Female,32.3,No,High,119.6,6.2,229.1,156,93,1.65,Normal,2.29,No,"Obesity, Hypertension",Antihypertensives,1
+244,78,Male,39.5,No,Moderate,109.5,4.5,208.8,136,85,1.65,Normal,1.88,No,Obesity,None,1
+245,65,Female,30.6,Yes,High,127.3,5.8,186.5,124,80,1.07,Normal,1.68,Yes,Obesity,None,1
+246,36,Male,28.2,Yes,High,87.4,4.5,181.7,97,71,0.91,Normal,2.62,No,None,None,0
+247,21,Male,24.7,No,Low,87.7,4.8,136.3,92,63,0.86,Normal,1.15,Yes,None,None,1
+248,52,Male,24.2,No,Low,106.8,5.2,217.2,115,76,0.71,Normal,1.42,No,None,None,0
+249,81,Male,33.3,Yes,Moderate,128.2,5.4,198.2,133,100,1.11,Normal,1.76,No,"Obesity, Hypertension",Antihypertensives,1
+250,66,Female,27.3,No,Moderate,118.6,5.3,213.1,120,88,1.42,Normal,2.74,No,None,None,0
+251,34,Female,27.4,Yes,High,103.7,4.6,129.8,100,60,0.65,Normal,2.23,No,None,None,0
+252,61,Male,26.5,No,High,106.3,5.6,128.9,127,82,1.15,Normal,1.42,No,None,None,0
+253,47,Male,29.4,No,Low,102.6,4.9,208.0,121,86,0.87,Normal,1.81,No,None,None,0
+254,63,Male,31.8,No,Low,110.6,6.1,202.8,127,85,0.85,Normal,1.63,Yes,Obesity,None,1
+255,23,Female,32.2,No,Moderate,89.7,4.5,144.4,112,79,0.73,Normal,1.57,Yes,Obesity,None,1
+256,54,Male,25.7,No,Low,85.5,4.5,160.9,114,91,0.82,Normal,2.59,No,Hypertension,Antihypertensives,1
+257,41,Male,25.7,Yes,High,90.9,4.5,199.3,109,79,1.28,Normal,1.18,No,None,None,0
+258,63,Female,24.1,Yes,Moderate,91.8,4.5,155.8,139,78,1.42,Normal,2.97,No,None,None,0
+259,70,Female,28.5,No,Moderate,95.7,4.5,244.3,147,90,1.04,Normal,2.5,No,Hypertension,Antihypertensives,1
+260,77,Male,30.3,No,Low,110.7,5.3,171.5,127,86,1.35,Normal,2.65,No,Obesity,None,1
+261,80,Female,34.6,No,Moderate,119.1,5.7,219.2,157,90,0.93,Elevated,1.72,No,"Obesity, Hypertension",Antihypertensives,1
+262,49,Female,22.4,No,Moderate,89.6,4.5,174.6,120,68,1.12,Normal,1.91,Yes,None,None,1
+263,50,Male,31.3,No,Moderate,114.4,5.8,203.1,114,91,0.81,Normal,1.14,Yes,"Obesity, Hypertension",Antihypertensives,1
+264,84,Female,36.5,No,Low,101.2,4.6,185.7,162,86,1.06,Normal,1.69,Yes,"Obesity, Hypertension",Antihypertensives,1
+265,35,Male,29.1,No,Moderate,91.9,4.6,172.6,128,84,1.17,Normal,2.3,No,None,None,0
+266,42,Female,36.4,Yes,High,96.9,5.5,167.2,117,84,0.64,Elevated,2.78,No,Obesity,None,1
+267,71,Male,24.6,No,Low,77.0,4.5,165.4,119,68,0.82,Normal,1.34,No,None,None,0
+268,75,Male,23.4,Yes,Low,94.3,4.5,219.7,139,82,1.05,Normal,1.78,No,None,None,0
+269,84,Male,21.1,Yes,Low,92.9,4.5,186.6,133,63,1.45,Normal,1.91,No,None,None,0
+270,63,Female,37.1,No,Moderate,124.3,4.6,184.6,147,92,0.89,Elevated,1.16,Yes,"Obesity, Hypertension",Antihypertensives,1
+271,41,Male,30.3,Yes,Moderate,102.8,4.6,150.7,122,82,0.5,Normal,2.35,No,Obesity,None,1
+272,49,Female,26.7,No,Moderate,83.6,4.5,107.6,122,69,0.81,Normal,1.57,No,None,None,0
+273,64,Male,28.8,No,Low,117.9,4.9,186.3,117,81,1.54,Normal,1.88,No,None,None,0
+274,40,Male,21.4,No,Low,97.9,4.7,252.4,115,83,1.14,Elevated,1.73,Yes,None,None,1
+275,83,Female,40.5,No,Moderate,123.0,5.6,225.0,171,91,1.02,Normal,1.53,No,"Obesity, Hypertension",Antihypertensives,1
+276,44,Male,27.6,Yes,Moderate,91.7,4.5,181.4,114,65,0.82,Normal,2.0,No,None,None,0
+277,19,Male,27.5,No,High,79.3,4.5,146.6,101,78,1.13,Elevated,1.87,No,None,None,0
+278,34,Female,30.6,No,Low,91.8,4.6,177.7,100,88,0.53,Normal,1.78,No,Obesity,None,1
+279,50,Male,29.4,Yes,Moderate,108.2,5.3,201.4,128,77,0.82,Elevated,1.56,No,None,None,0
+280,26,Male,28.1,No,Moderate,109.8,4.6,137.6,112,76,0.94,Normal,2.19,No,None,None,0
+281,60,Male,24.8,Yes,Moderate,109.2,5.8,223.4,121,87,0.99,Elevated,2.99,No,None,None,0
+282,65,Male,31.3,Yes,Moderate,97.7,4.7,214.0,146,77,0.99,Elevated,2.08,No,"Obesity, Hypertension",Antihypertensives,1
+283,56,Female,39.0,No,Moderate,98.8,4.8,209.5,137,82,0.91,Normal,2.6,Yes,Obesity,None,1
+284,59,Female,35.9,Yes,High,108.3,5.5,187.7,143,94,0.5,High,1.17,Yes,"Obesity, Hypertension",Antihypertensives,1
+285,43,Male,35.0,No,Low,84.9,4.5,182.1,117,92,0.77,Normal,2.09,Yes,"Obesity, Hypertension",Antihypertensives,1
+286,67,Female,25.1,No,Low,98.8,5.3,213.7,126,83,1.45,Normal,1.34,No,None,None,0
+287,42,Male,22.1,No,Moderate,85.4,4.5,198.8,105,61,0.7,Normal,1.11,Yes,None,None,1
+288,41,Female,26.4,Yes,Moderate,87.2,4.5,169.9,115,87,0.91,Normal,1.56,No,None,None,0
+289,30,Male,27.3,Yes,Low,74.8,4.5,157.8,104,65,0.99,Normal,2.72,No,None,None,0
+290,77,Male,34.9,Yes,Low,114.4,4.7,201.6,146,86,0.99,Normal,2.57,Yes,"Obesity, Hypertension",Antihypertensives,1
+291,24,Male,18.5,No,Low,73.7,4.5,218.5,99,63,0.93,Normal,2.15,No,None,None,0
+292,74,Male,37.3,No,High,99.8,4.8,144.8,144,102,1.06,Elevated,1.08,No,"Obesity, Hypertension",Antihypertensives,1
+293,53,Male,28.8,Yes,Low,68.4,4.5,142.5,107,84,0.86,Normal,1.88,Yes,None,None,1
+294,62,Male,27.9,No,Low,97.7,4.7,195.9,145,82,1.39,Elevated,2.18,No,Hypertension,Antihypertensives,1
+295,37,Female,21.9,Yes,Low,103.4,4.5,180.0,117,70,0.93,Normal,2.11,No,None,None,0
+296,82,Male,21.6,No,Low,110.9,4.9,206.2,117,80,0.98,Normal,0.89,No,None,None,0
+297,25,Female,31.1,No,Low,89.8,4.5,179.8,117,75,0.94,Normal,1.47,No,Obesity,None,1
+298,33,Male,27.4,No,Moderate,85.4,4.5,169.8,104,60,1.04,Normal,1.96,No,None,None,0
+299,31,Female,20.6,No,Low,87.5,4.5,220.2,101,61,0.5,Normal,2.32,No,None,None,0
+300,32,Female,20.5,No,High,73.0,4.6,113.0,101,66,1.13,Normal,0.68,Yes,None,None,1
