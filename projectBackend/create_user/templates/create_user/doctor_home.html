@@ -1,0 +1,673 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Doctor Home</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav class="navbar navbar-dark bg-primary">
+      <div class="container-fluid d-flex justify-content-between">
+        <span class="navbar-brand mb-0 h1">
+          Welcome, Dr. {{ doctor.username }}
+        </span>
+      </div>
+    </nav>
+
+    <div class="container mt-4">
+      <h3>Doctor Dashboard</h3>
+
+      {% if messages %} {% for message in messages %}
+      <div class="alert alert-warning">{{ message }}</div>
+      {% endfor %} {% endif %} {% if not visit_created %}
+      <!-- Show form only if visit not created -->
+      <form method="POST" action="{% url 'doctor_home' %}">
+        {% csrf_token %}
+        <input
+          type="text"
+          name="patient_input"
+          placeholder="Enter Patient ID or National ID"
+          required
+          class="form-control mb-2"
+        />
+        <button type="submit" class="btn btn-primary">Create Visit</button>
+      </form>
+      {% else %}
+      <!-- Show visit & patient info -->
+      <div class="row mt-4">
+        <div class="col-md-6">
+          <div class="card p-3 mb-3 bg-light">
+            <h5>Visit Info</h5>
+            <p><strong>Visit ID:</strong> {{ visit_id }}</p>
+            <p><strong>Visit Date: </strong>{{ visit.visit_date }}</p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card p-3 mb-3 bg-light">
+            <h5>Patient Info</h5>
+            <p><strong>National ID:</strong> {{ patient_national_id }}</p>
+            <p><strong>Name:</strong> {{ patient_name }}</p>
+            <p><strong>Age:</strong> {{ patient_age }} years</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Symptom Management Section -->
+      <!-- ... keep the existing nav and patient info ... -->
+
+      <!-- Symptom Section -->
+      <div id="symptomSection" class="mt-4">
+        <div class="d-flex justify-content-between align-items-center mb-2">
+          <h5>Patient Symptoms</h5>
+          <button
+            class="btn btn-primary btn-sm"
+            onclick="document.getElementById('symptomForm').style.display='block'"
+          >
+            Add Symptom
+          </button>
+        </div>
+
+        <div id="symptomForm" class="card mb-3" style="display: none">
+          <div class="card-body border-primary">
+            <h6 class="card-title">Add New Symptom</h6>
+            <form onsubmit="addSymptom(event)">
+              <div class="row">
+                <div class="col-md-8 mb-3">
+                  <label class="form-label">Symptom</label>
+                  <select class="form-select" id="symptomSelect" required>
+                    <option value="">Select a symptom</option>
+                    {% for symptom in symptoms %}
+                    <option value="{{ symptom.id }}">{{ symptom.name }}</option>
+                    {% endfor %}
+                  </select>
+                </div>
+                <div class="col-md-4 mb-3">
+                  <label class="form-label">Severity</label>
+                  <select class="form-select" id="symptomSeverity" required>
+                    <option value="">Select severity</option>
+                    <option value="Mild">Mild</option>
+                    <option value="Moderate">Moderate</option>
+                    <option value="Severe">Severe</option>
+                  </select>
+                </div>
+              </div>
+              <div class="d-flex gap-2">
+                <button type="submit" class="btn btn-primary">
+                  Add Symptom
+                </button>
+                <button
+                  type="button"
+                  class="btn btn-secondary"
+                  onclick="document.getElementById('symptomForm').style.display='none'"
+                >
+                  Cancel
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+
+        <div class="table-responsive mb-3">
+          <table class="table table-striped">
+            <thead class="table-info">
+              <tr>
+                <th>Symptom</th>
+                <th>Severity</th>
+                <th>Actions</th>
+              </tr>
+            </thead>
+            <tbody id="symptomsTableBody"></tbody>
+          </table>
+        </div>
+      </div>
+
+      <!-- Diagnosis Section -->
+      <div id="diagnosisSection" class="mt-4">
+        <div class="d-flex justify-content-between align-items-center mb-2">
+          <h5>Diagnoses</h5>
+          <button
+            class="btn btn-primary btn-sm"
+            onclick="document.getElementById('diagnosisForm').style.display='block'"
+          >
+            Add Diagnosis
+          </button>
+        </div>
+
+        <div id="diagnosisForm" class="card mb-3" style="display: none">
+          <div class="card-body border-primary">
+            <h6 class="card-title">Add New Diagnosis</h6>
+            <form onsubmit="addDiagnosis(event)">
+              <div class="row">
+                <div class="col-md-4 mb-3">
+                  <label class="form-label">Disease</label>
+                  <select class="form-select" id="diseaseSelect" required>
+                    <option value="">Select a disease</option>
+                    {% for disease in diseases %}
+                    <option value="{{ disease.id }}">{{ disease.name }}</option>
+                    {% endfor %}
+                  </select>
+                </div>
+                <div class="col-md-3 mb-3">
+                  <label class="form-label">Severity</label>
+                  <select class="form-select" id="diagnosisSeverity" required>
+                    <option value="">Select severity</option>
+                    <option value="Mild">Mild</option>
+                    <option value="Moderate">Moderate</option>
+                    <option value="Severe">Severe</option>
+                  </select>
+                </div>
+                <div class="col-md-5 mb-3">
+                  <label class="form-label">Notes</label>
+                  <input
+                    type="text"
+                    id="diagnosisNotes"
+                    class="form-control"
+                    placeholder="Optional notes"
+                  />
+                </div>
+              </div>
+              <div class="d-flex gap-2">
+                <button type="submit" class="btn btn-primary">
+                  Add Diagnosis
+                </button>
+                <button
+                  type="button"
+                  class="btn btn-secondary"
+                  onclick="document.getElementById('diagnosisForm').style.display='none'"
+                >
+                  Cancel
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+
+        <div class="table-responsive mb-3">
+          <table class="table table-striped">
+            <thead class="table-info">
+              <tr>
+                <th>Disease</th>
+                <th>Severity</th>
+                <th>Notes</th>
+                <th>Actions</th>
+              </tr>
+            </thead>
+            <tbody id="diagnosisTableBody"></tbody>
+          </table>
+        </div>
+      </div>
+
+      <!-- Lab Test Section -->
+      <div id="labTestSection" class="mt-4">
+        <div class="d-flex justify-content-between align-items-center mb-2">
+          <h5>Lab Test Results</h5>
+          <button
+            class="btn btn-primary btn-sm"
+            onclick="document.getElementById('labTestForm').style.display='block'"
+          >
+            Add Lab Test
+          </button>
+        </div>
+
+        <div id="labTestForm" class="card mb-3" style="display: none">
+          <div class="card-body border-primary">
+            <h6 class="card-title">Add Lab Test Result</h6>
+            <form onsubmit="addLabTest(event)">
+              <div class="row">
+                <div class="col-md-4 mb-3">
+                  <label class="form-label">Lab Test</label>
+                  <select class="form-select" id="labTestSelect" required>
+                    <option value="">Select a lab test</option>
+                    {% for test in lab_tests %}
+                    <option value="{{ test.id }}">{{ test.test_name }}</option>
+                    {% endfor %}
+                  </select>
+                </div>
+                <div class="col-md-3 mb-3">
+                  <label class="form-label">Result</label>
+                  <input
+                    type="text"
+                    id="labTestResult"
+                    class="form-control"
+                    required
+                  />
+                </div>
+                <div class="col-md-5 mb-3">
+                  <label class="form-label">Notes</label>
+                  <input type="text" id="labTestNotes" class="form-control" />
+                </div>
+              </div>
+              <div class="d-flex gap-2">
+                <button type="submit" class="btn btn-primary">
+                  Add Result
+                </button>
+                <button
+                  type="button"
+                  class="btn btn-secondary"
+                  onclick="document.getElementById('labTestForm').style.display='none'"
+                >
+                  Cancel
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+
+        <div class="table-responsive mb-3">
+          <table class="table table-striped">
+            <thead class="table-info">
+              <tr>
+                <th>Lab Test</th>
+                <th>Result</th>
+                <th>Notes</th>
+                <th>Actions</th>
+              </tr>
+            </thead>
+            <tbody id="labTestTableBody"></tbody>
+          </table>
+        </div>
+      </div>
+
+      <!-- Prescription Section -->
+      <div id="prescriptionSection" class="mt-4">
+        <div class="d-flex justify-content-between align-items-center mb-2">
+          <h5>Prescriptions</h5>
+          <button
+            class="btn btn-primary btn-sm"
+            onclick="document.getElementById('prescriptionForm').style.display='block'"
+          >
+            Add Prescription
+          </button>
+        </div>
+
+        <div id="prescriptionForm" class="card mb-3" style="display: none">
+          <div class="card-body border-primary">
+            <h6 class="card-title">Add Prescription</h6>
+            <form onsubmit="addPrescription(event)">
+              <div class="row">
+                <div class="col-md-4 mb-3">
+                  <label class="form-label">Drug</label>
+                  <select class="form-select" id="drugSelect" required>
+                    <option value="">Select a drug</option>
+                    {% for drug in drugs %}
+                    <option value="{{ drug.id }}">{{ drug.drug_name }}</option>
+                    {% endfor %}
+                  </select>
+                </div>
+                <div class="col-md-2 mb-3">
+                  <label class="form-label">Dosage</label>
+                  <input
+                    type="text"
+                    id="prescriptionDosage"
+                    class="form-control"
+                    required
+                  />
+                </div>
+                <div class="col-md-2 mb-3">
+                  <label class="form-label">Frequency</label>
+                  <select class="form-select" id="prescriptionFrequency">
+                    <option value="Daily">Daily</option>
+                    <option value="Weekly">Weekly</option>
+                    <option value="Monthly">Monthly</option>
+                  </select>
+                </div>
+                <div class="col-md-4 mb-3">
+                  <label class="form-label">Notes</label>
+                  <input
+                    type="text"
+                    id="prescriptionNotes"
+                    class="form-control"
+                  />
+                </div>
+              </div>
+              <div class="d-flex gap-2">
+                <button type="submit" class="btn btn-primary">
+                  Add Prescription
+                </button>
+                <button
+                  type="button"
+                  class="btn btn-secondary"
+                  onclick="document.getElementById('prescriptionForm').style.display='none'"
+                >
+                  Cancel
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+
+        <div class="table-responsive mb-3">
+          <table class="table table-striped">
+            <thead class="table-info">
+              <tr>
+                <th>Drug</th>
+                <th>Dosage</th>
+                <th>Frequency</th>
+                <th>Notes</th>
+                <th>Actions</th>
+              </tr>
+            </thead>
+            <tbody id="prescriptionTableBody"></tbody>
+          </table>
+        </div>
+      </div>
+
+      <!-- ===== Single Save All Button ===== -->
+      <div class="mt-4 mb-5 text-end">
+        <button class="btn btn-success btn-lg" onclick="saveAllData()">
+          Save All Data
+        </button>
+      </div>
+
+      {% endif %}
+    </div>
+
+    <script>
+      let visitSymptoms = [];
+      let visitDiagnoses = [];
+      let visitLabTests = [];
+      let visitPrescriptions = [];
+
+      function severityBadge(severity) {
+        if (severity === "Mild") return "success";
+        if (severity === "Moderate") return "warning";
+        if (severity === "Severe") return "danger";
+        return "secondary";
+      }
+
+      function getCookie(name) {
+        let cookieValue = null;
+        if (document.cookie && document.cookie !== "") {
+          document.cookie.split(";").forEach((cookie) => {
+            if (cookie.trim().startsWith(name + "=")) {
+              cookieValue = decodeURIComponent(cookie.trim().split("=")[1]);
+            }
+          });
+        }
+        return cookieValue;
+      }
+
+      // Symptom Functions
+      function addSymptom(e) {
+        e.preventDefault();
+        const symptomSelect = document.getElementById("symptomSelect");
+        const severitySelect = document.getElementById("symptomSeverity");
+        const id = symptomSelect.value;
+        const name = symptomSelect.options[symptomSelect.selectedIndex].text;
+        const severity = severitySelect.value;
+        if (!id || !severity) return;
+
+        visitSymptoms.push({
+          symptom_id: id,
+          symptom_name: name,
+          severity: severity,
+        });
+
+        const row = document.createElement("tr");
+        row.innerHTML = `<td>${name}</td>
+          <td><span class="badge bg-${severityBadge(
+            severity
+          )}">${severity}</span></td>
+          <td><button class="btn btn-sm btn-outline-danger" onclick="removeSymptom(${
+            visitSymptoms.length - 1
+          },this)">Remove</button></td>`;
+        document.getElementById("symptomsTableBody").appendChild(row);
+
+        symptomSelect.value = "";
+        severitySelect.value = "";
+        document.getElementById("symptomForm").style.display = "none";
+      }
+
+      function removeSymptom(index, btn) {
+        visitSymptoms.splice(index, 1);
+        btn.closest("tr").remove();
+      }
+
+      function saveSymptoms() {
+        const visitId = "{{ visit_id }}";
+        if (!visitId) {
+          alert("No visit created yet!");
+          return;
+        }
+        if (visitSymptoms.length === 0) {
+          alert("No symptoms to save!");
+          return;
+        }
+        fetch(`/save-symptoms/${visitId}/`, {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+            "X-CSRFToken": getCookie("csrftoken"),
+          },
+          body: JSON.stringify({ symptoms: visitSymptoms }),
+        })
+          .then((res) => res.json())
+          .then((data) => {
+            alert(data.success ? "Symptoms saved successfully!" : data.error);
+            visitSymptoms = [];
+            document.getElementById("symptomsTableBody").innerHTML = "";
+          });
+      }
+
+      // Diagnosis Functions
+      function addDiagnosis(e) {
+        e.preventDefault();
+        const diseaseSelect = document.getElementById("diseaseSelect");
+        const severitySelect = document.getElementById("diagnosisSeverity");
+        const notesInput = document.getElementById("diagnosisNotes");
+
+        const id = diseaseSelect.value;
+        const name = diseaseSelect.options[diseaseSelect.selectedIndex].text;
+        const severity = severitySelect.value;
+        const notes = notesInput.value;
+
+        if (!id || !severity) return;
+
+        visitDiagnoses.push({
+          disease_id: id,
+          disease_name: name,
+          severity: severity,
+          notes: notes,
+        });
+
+        const row = document.createElement("tr");
+        row.innerHTML = `<td>${name}</td>
+          <td><span class="badge bg-${severityBadge(
+            severity
+          )}">${severity}</span></td>
+          <td>${notes || "-"}</td>
+          <td><button class="btn btn-sm btn-outline-danger" onclick="removeDiagnosis(${
+            visitDiagnoses.length - 1
+          },this)">Remove</button></td>`;
+        document.getElementById("diagnosisTableBody").appendChild(row);
+
+        diseaseSelect.value = "";
+        severitySelect.value = "";
+        notesInput.value = "";
+        document.getElementById("diagnosisForm").style.display = "none";
+      }
+
+      function removeDiagnosis(index, btn) {
+        visitDiagnoses.splice(index, 1);
+        btn.closest("tr").remove();
+      }
+
+      function saveDiagnoses() {
+        const visitId = "{{ visit_id }}";
+        if (!visitId) {
+          alert("No visit created yet!");
+          return;
+        }
+        if (visitDiagnoses.length === 0) {
+          alert("No diagnoses to save!");
+          return;
+        }
+        fetch(`/save-diagnoses/${visitId}/`, {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+            "X-CSRFToken": getCookie("csrftoken"),
+          },
+          body: JSON.stringify({ diagnoses: visitDiagnoses }),
+        })
+          .then((res) => res.json())
+          .then((data) => {
+            alert(data.success ? "Diagnoses saved successfully!" : data.error);
+            visitDiagnoses = [];
+            document.getElementById("diagnosisTableBody").innerHTML = "";
+          });
+      }
+      function addLabTest(e) {
+        e.preventDefault();
+        const select = document.getElementById("labTestSelect");
+        const resultInput = document.getElementById("labTestResult");
+        const notesInput = document.getElementById("labTestNotes");
+
+        const id = select.value;
+        const name = select.options[select.selectedIndex].text;
+        const result = resultInput.value;
+        const notes = notesInput.value;
+
+        if (!id || !result) return;
+
+        visitLabTests.push({
+          lab_test_id: id,
+          lab_test_name: name,
+          result_value: result,
+          notes: notes,
+        });
+
+        const row = document.createElement("tr");
+        row.innerHTML = `<td>${name}</td><td>${result}</td><td>${
+          notes || "-"
+        }</td>
+                   <td><button class="btn btn-sm btn-outline-danger" onclick="removeLabTest(${
+                     visitLabTests.length - 1
+                   }, this)">Remove</button></td>`;
+        document.getElementById("labTestTableBody").appendChild(row);
+
+        select.value = "";
+        resultInput.value = "";
+        notesInput.value = "";
+        document.getElementById("labTestForm").style.display = "none";
+      }
+
+      function removeLabTest(index, btn) {
+        visitLabTests.splice(index, 1);
+        btn.closest("tr").remove();
+      }
+
+      // Similarly for Prescriptions:
+      function addPrescription(e) {
+        e.preventDefault();
+        const select = document.getElementById("drugSelect");
+        const dosage = document.getElementById("prescriptionDosage").value;
+        const frequency = document.getElementById(
+          "prescriptionFrequency"
+        ).value;
+        const notes = document.getElementById("prescriptionNotes").value;
+
+        const id = select.value;
+        const name = select.options[select.selectedIndex].text;
+
+        if (!id || !dosage) return;
+
+        visitPrescriptions.push({
+          drug_id: id,
+          drug_name: name,
+          dosage,
+          frequency,
+          notes,
+        });
+
+        const row = document.createElement("tr");
+        row.innerHTML = `<td>${name}</td><td>${dosage}</td><td>${frequency}</td><td>${
+          notes || "-"
+        }</td>
+                   <td><button class="btn btn-sm btn-outline-danger" onclick="removePrescription(${
+                     visitPrescriptions.length - 1
+                   }, this)">Remove</button></td>`;
+        document.getElementById("prescriptionTableBody").appendChild(row);
+
+        select.value = "";
+        document.getElementById("prescriptionDosage").value = "";
+        document.getElementById("prescriptionFrequency").value = "Daily";
+        document.getElementById("prescriptionNotes").value = "";
+        document.getElementById("prescriptionForm").style.display = "none";
+      }
+
+      function removePrescription(index, btn) {
+        visitPrescriptions.splice(index, 1);
+        btn.closest("tr").remove();
+      }
+
+      function saveAllData() {
+        const visitId = "{{ visit_id }}";
+        if (!visitId) {
+          alert("No visit created yet!");
+          return;
+        }
+
+        if (
+          visitSymptoms.length === 0 &&
+          visitDiagnoses.length === 0 &&
+          visitLabTests.length === 0 &&
+          visitPrescriptions.length === 0
+        ) {
+          alert("No data to save!");
+          return;
+        }
+
+        const csrftoken = getCookie("csrftoken");
+
+        const payload = {
+          symptoms: visitSymptoms,
+          diagnoses: visitDiagnoses,
+          lab_tests: visitLabTests,
+          prescriptions: visitPrescriptions,
+        };
+
+        fetch(`/save-all-data/${visitId}/`, {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+            "X-CSRFToken": csrftoken,
+          },
+          body: JSON.stringify(payload),
+        })
+          .then((res) => res.json())
+          .then((data) => {
+            if (data.success) {
+              alert("All data saved successfully!");
+              window.location.href = data.redirect_url;
+              // Clear arrays
+              visitSymptoms = [];
+              visitDiagnoses = [];
+              visitLabTests = [];
+              visitPrescriptions = [];
+
+              // Clear table bodies
+              document.getElementById("symptomsTableBody").innerHTML = "";
+              document.getElementById("diagnosisTableBody").innerHTML = "";
+              document.getElementById("labTestTableBody").innerHTML = "";
+              document.getElementById("prescriptionTableBody").innerHTML = "";
+            } else {
+              alert("Error saving data: " + data.error);
+            }
+          })
+          .catch((err) => alert("Request failed: " + err));
+      }
+
+      // Auto-show sections if visit created
+      document.addEventListener("DOMContentLoaded", () => {
+        const visitId = "{{ visit_id }}";
+        if (visitId) {
+          document.getElementById("symptomSection").style.display = "block";
+          document.getElementById("diagnosisSection").style.display = "block";
+        }
+      });
+    </script>
+  </body>
+</html>

@@ -1,4 +1,5 @@
 from django.db import models
+from django.contrib.auth.models import User
 from django.utils import timezone
 
 # Hospital Table.
@@ -19,6 +20,7 @@ class Hospital(models.Model):
 
 # Doctor Table.
 class Doctor(models.Model):
+    user = models.ForeignKey(User, on_delete=models.SET_NULL, null=True, blank=True)
     national_id = models.CharField(max_length=20, unique=True)  # Added national ID
     username = models.CharField(max_length=150, unique=True)
     password = models.CharField(max_length=128)  # store plain first
@@ -61,16 +63,7 @@ class Patient(models.Model):
     weight = models.FloatField(help_text="Weight in kg")
     # Chronic conditions (link to Disease codes)
     chronic_conditions = models.ManyToManyField("Disease", blank=True, related_name="patients")
-    # BMI will always be calculated automatically
-    '''bmi = models.FloatField(max_length=20, null=True, blank=True)  # Not editable in forms
-    
-    def save(self, *args, **kwargs):
-        if self.height and self.weight:
-            # Convert height from cm to meters before calculating BMI
-            height_m = self.height / 100
-            self.bmi = round(self.weight / (height_m ** 2), 2)
-        super().save(*args, **kwargs)
-'''
+
     mobile_number = models.CharField(max_length=15)
     allergies = models.TextField(blank=True, null=True)  # optional field
     
@@ -121,7 +114,9 @@ class Diagnosis(models.Model):
 # visit table  
 class Visit(models.Model):
     visit_id = models.AutoField(primary_key=True)  # Auto-increment ID
-    patient = models.ForeignKey(Patient, on_delete=models.CASCADE)  # Link to Patient
+    patient = models.ForeignKey(Patient, 
+        on_delete=models.CASCADE, 
+        related_name="visits" )  # Link to Patient
     doctor = models.ForeignKey(Doctor, on_delete=models.CASCADE)    # Link to Doctor
     hospital = models.ForeignKey(Hospital, on_delete=models.CASCADE) # Link to Hospital
     notes = models.TextField(blank=True, null=True)  # optional extra notes by doctor
@@ -242,7 +237,6 @@ class Emergency(models.Model):
         on_delete=models.CASCADE,
         related_name="emergencies"
     )
-    critical_notes = models.TextField(blank=True, null=True)
     DNR_CHOICES = [
         ("yes", "Yes"),
         ("no", "No")

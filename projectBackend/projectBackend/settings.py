@@ -135,7 +135,8 @@ AUTH_PASSWORD_VALIDATORS = [
         'NAME': 'django.contrib.auth.password_validation.NumericPasswordValidator',
     },
 ]
-
+LOGIN_URL = "/login/"
+LOGIN_REDIRECT_URL = "/home/"  # after login, where user goes
 
 # Internationalization
 # https://docs.djangoproject.com/en/5.2/topics/i18n/

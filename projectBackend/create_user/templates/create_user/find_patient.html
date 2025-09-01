@@ -1,0 +1,13 @@
+{% if patients %}
+<h3>Search Results</h3>
+<ul>
+  {% for patient in patients %}
+  <li>
+    {{ patient.name }} ({{ patient.national_id }})
+    <a href="{% url 'create_visit_auto' patient.id %}" class="btn btn-primary">
+      Create Visit
+    </a>
+  </li>
+  {% endfor %}
+</ul>
+{% endif %}

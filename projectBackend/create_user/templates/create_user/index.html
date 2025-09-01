@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Doctor Home</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <script>
+      let visitSymptoms = []; // temporary store before saving
+
+      function showSymptomForm() {
+        document.getElementById("symptomForm").style.display = "block";
+      }
+
+      function hideSymptomForm() {
+        document.getElementById("symptomForm").style.display = "none";
+      }
+
+      function addSymptom(event) {
+        event.preventDefault();
+
+        const symptomSelect = document.getElementById("symptomSelect");
+        const severitySelect = document.getElementById("symptomSeverity");
+
+        const symptomId = symptomSelect.value;
+        const symptomName =
+          symptomSelect.options[symptomSelect.selectedIndex].text;
+        const severity = severitySelect.value;
+
+        if (!symptomId || !severity) return;
+
+        // add to temporary array
+        visitSymptoms.push({
+          symptom_id: symptomId,
+          symptom_name: symptomName,
+          severity: severity,
+        });
+
+        // add to table
+        const tableBody = document.getElementById("symptomsTableBody");
+        const row = document.createElement("tr");
+        row.innerHTML = `
+        <td>${symptomName}</td>
+        <td><span class="badge bg-${severityBadge(
+          severity
+        )}">${severity}</span></td>
+        <td><button class="btn btn-sm btn-outline-danger" onclick="removeSymptom(${
+          visitSymptoms.length - 1
+        }, this)">Remove</button></td>
+    `;
+        tableBody.appendChild(row);
+
+        // reset form
+        symptomSelect.value = "";
+        severitySelect.value = "";
+        hideSymptomForm();
+      }
+
+      function removeSymptom(index, btn) {
+        visitSymptoms.splice(index, 1);
+        btn.closest("tr").remove();
+      }
+
+      function severityBadge(severity) {
+        if (severity === "Mild") return "success";
+        if (severity === "Moderate") return "warning";
+        if (severity === "Severe") return "danger";
+        return "secondary";
+      }
+
+      function saveSymptoms() {
+        if (visitSymptoms.length === 0) {
+          alert("No symptoms to save!");
+          return;
+        }
+
+        fetch("{% url 'save_visit_symptoms' visit_id=visit_id %}", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+            "X-CSRFToken": "{{ csrf_token }}",
+          },
+          body: JSON.stringify({ symptoms: visitSymptoms }),
+        })
+          .then((response) => response.json())
+          .then((data) => {
+            if (data.success) {
+              alert("Symptoms saved successfully!");
+              visitSymptoms = [];
+              document.getElementById("symptomsTableBody").innerHTML = "";
+            } else {
+              alert("Error saving symptoms: " + data.error);
+            }
+          })
+          .catch((error) => alert("Request failed: " + error));
+      }
+    </script>
+  </head>
+  <body>
+    <nav class="navbar navbar-dark bg-primary">
+      <div class="container-fluid d-flex justify-content-between">
+        <span class="navbar-brand mb-0 h1">
+          Welcome, Dr. {{ doctor.username }}
+        </span>
+      </div>
+    </nav>
+
+    <div class="container mt-4">
+      <h3>Doctor Dashboard</h3>
+
+      {% if messages %} {% for message in messages %}
+      <div class="alert alert-warning">{{ message }}</div>
+      {% endfor %} {% endif %} {% if not visit_created %}
+      <form method="post">
+        {% csrf_token %}
+
+        <label for="symptoms">Select Symptoms</label>
+        <select name="symptoms" id="symptoms" class="form-select">
+          <option value="">-- Select a Symptom --</option>
+          {% for symptom in symptoms %}
+          <option value="{{ symptom.id }}">{{ symptom.name }}</option>
+          {% endfor %}
+        </select>
+
+        <button type="submit" class="btn btn-primary mt-2">Submit</button>
+      </form>
+      <!-- show form only if visit not created -->
+      <form method="POST" action="{% url 'doctor_home' %}">
+        {% csrf_token %}
+        <input
+          type="text"
+          name="patient_input"
+          placeholder="Enter Patient ID or National ID"
+          required
+        />
+        <button type="submit">Create Visit</button>
+      </form>
+      {% else %}
+      <!-- Show visit & patient info -->
+      <div class="row mt-4">
+        <div class="col-md-6">
+          <div class="card p-3 mb-3 bg-light">
+            <h5>Visit Info</h5>
+            <p><strong>Visit ID:</strong> {{ visit_id }}</p>
+            <p>
+              <strong>Visit Date:</strong> {{ visit_date|date:"M d, Y, h:i a" }}
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card p-3 mb-3 bg-light">
+            <h5>Patient Info</h5>
+            <p><strong>National ID:</strong> {{ patient_national_id }}</p>
+            <p><strong>Name:</strong> {{ patient_name }}</p>
+            <p><strong>Age:</strong> {{ patient_age }} years</p>
+          </div>
+        </div>
+      </div>
+      {% endif %}
+    </div>
+    {% if visit_created %}
+    <!-- Button to open Add Symptom Form -->
+    <div class="d-flex justify-content-between align-items-center mb-2">
+      <h5>Patient Symptoms</h5>
+      <button class="btn btn-primary btn-sm" onclick="showSymptomForm()">
+        Add Symptom
+      </button>
+    </div>
+
+    <!-- Add Symptom Form -->
+    <div id="symptomForm" class="card mb-3" style="display: none">
+      <div class="card-body border-primary">
+        <h6 class="card-title">Add New Symptom</h6>
+        <form id="addSymptomForm" onsubmit="addSymptom(event)">
+          <div class="row">
+            <div class="col-md-8 mb-3">
+              <label class="form-label">Symptom</label>
+              <select class="form-select" id="symptomSelect" required>
+                <option value="">Select a symptom</option>
+                {% for symptom in symptoms %}
+                <option value="{{ symptom.id }}">{{ symptom.name }}</option>
+                {% endfor %}
+              </select>
+            </div>
+            <div class="col-md-4 mb-3">
+              <label class="form-label">Severity</label>
+              <select class="form-select" id="symptomSeverity" required>
+                <option value="">Select severity</option>
+                <option value="Mild">Mild</option>
+                <option value="Moderate">Moderate</option>
+                <option value="Severe">Severe</option>
+              </select>
+            </div>
+          </div>
+          <div class="d-flex gap-2">
+            <button type="submit" class="btn btn-primary">Add Symptom</button>
+            <button
+              type="button"
+              class="btn btn-secondary"
+              onclick="hideSymptomForm()"
+            >
+              Cancel
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <!-- Symptoms Table -->
+    <div class="table-responsive mb-3">
+      <table class="table table-striped">
+        <thead class="table-dark">
+          <tr>
+            <th>Symptom</th>
+            <th>Severity</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody id="symptomsTableBody">
+          <!-- Dynamically added symptoms will appear here -->
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Complete Visit Button -->
+    <button class="btn btn-success" onclick="saveSymptoms()">
+      Complete Visit
+    </button>
+    {% endif %}
+  </body>
+</html>

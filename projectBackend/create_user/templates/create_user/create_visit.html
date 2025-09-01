@@ -1,0 +1,14 @@
+<!-- templates/create_visit.html -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Create Visit</title>
+  </head>
+  <body>
+    <h2>Start New Visit</h2>
+    <form method="post">
+      {% csrf_token %} {{ form.as_p }}
+      <button type="submit">Create Visit</button>
+    </form>
+  </body>
+</html>

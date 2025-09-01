@@ -1,5 +1,5 @@
 from django import forms
-from .models import Doctor, Patient
+from .models import Doctor, Patient, Visit
 
 # from doctor table
 class DoctorForm(forms.ModelForm):
@@ -19,3 +19,11 @@ class PatientForm(forms.ModelForm):
             'dob': forms.DateInput(attrs={'type': 'date'}),
             'allergies': forms.Textarea(attrs={'rows': 3}),
         }
+
+# forms.py
+
+
+class VisitForm(forms.ModelForm):
+    class Meta:
+        model = Visit
+        fields = ['patient', 'doctor', 'hospital', 'notes']

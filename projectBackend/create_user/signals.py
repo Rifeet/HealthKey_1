@@ -1,10 +1,14 @@
 # create_user/signals.py
-from django.db.models.signals import pre_save
+from django.db.models.signals import pre_save, post_save
 from django.dispatch import receiver
 from django.utils import timezone
-
-# Import the models you need
 from .models import Emergency
+from create_user.models import Patient
+
+@receiver(post_save, sender=Patient)
+def create_emergency_for_patient(sender, instance, created, **kwargs):
+    if created:
+        Emergency.objects.get_or_create(patient=instance)
 
 # Signal function to auto-fill fields before saving an Emergency
 @receiver(pre_save, sender=Emergency)
