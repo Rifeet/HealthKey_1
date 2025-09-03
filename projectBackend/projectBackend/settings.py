@@ -73,9 +73,7 @@ MIDDLEWARE = [
 CORS_ALLOW_ALL_ORIGINS = True
 
 # Internal IPs for Django Debug Toolbar
-INTERNAL_IPS = [ 
-    '127.0.0.1',
-    
+INTERNAL_IPS = [     
     'localhost',
 ]
 ROOT_URLCONF = 'projectBackend.urls'
